@@ -1,0 +1,938 @@
+2024-04-11 15:28:21,267 - logger - INFO - [('Интеграции с платформы вбсист на платформу мой склад', 'https://www.fl.ru//projects/5308381/integratsii-s-platformyi-vbsist-na-platformu-moy-sklad.html'), ('Доработка MUI административной панели', 'https://www.fl.ru//projects/5308387/dorabotka-mui-administrativnoy-paneli.html'), ('Исправление ошибок у сайта на wordpress', 'https://www.fl.ru//projects/5308376/ispravlenie-oshibok-u-sayta-na-wordpress.html'), ('Сервис вебинаров и автовебинаров. (Node.js http фреймворк Express База MySQL) ', 'https://www.fl.ru//projects/5308351/servis-vebinarov-i-avtovebinarov-nodejs-http-freymvork-express-baza-mysql-.html'), ('Разработка web сайтв', 'https://www.fl.ru//projects/5308336/razrabotka-web-saytv.html'), ('Разработка и внедрение RestaurantSystem (RS) для оптимизации бронирования и управления заведениями', 'https://www.fl.ru//projects/5308301/razrabotka-i-vnedrenie-restaurantsystem-rs-dlya-optimizatsii-bronirovaniya-i-upravleniya-zavedeniyami.html'), ('Исправить выгрузку 1с в opncart 2.3', 'https://www.fl.ru//projects/5308278/ispravit-vyigruzku-1s-v-opncart-23.html'), ('Верстка и натяжка на joomla', 'https://www.fl.ru//projects/5308242/verstka-i-natyajka-na-joomla.html'), ('Разработка виджетов AmoCRM и не только', 'https://www.fl.ru//projects/5308196/razrabotka-vidjetov-amocrm-i-ne-tolko.html'), ('Внести правки в массив', 'https://www.fl.ru//projects/5308200/vnesti-pravki-v-massiv.html'), ('Разработка веб приложения для генерации ответа нашим клиентам через ChatGPT ', 'https://www.fl.ru//projects/5305963/razrabotka-veb-prilojeniya-dlya-generatsii-otveta-nashim-klientam-cherez-chatgpt-.html'), ('Настроить сервис «автопилот» на розыгрыш в ВК ', 'https://www.fl.ru//projects/5308141/nastroit-servis-avtopilot-na-rozyigryish-v-vk-.html'), ('Множественные кластеры на Яндекс.Карте', 'https://www.fl.ru//projects/5308094/mnojestvennyie-klasteryi-na-yandekskarte.html'), (' Разработка WEB-сервиса с поддержкой интерфейса IoT для контроля за устройствами умного дома  ', 'https://www.fl.ru//projects/5308124/-razrabotka-web-servisa-s-podderjkoy-interfeysa-iot-dlya-kontrolya-za-ustroystvami-umnogo-doma--.html'), ('Сайт с вэб интерфейсом Postgre', 'https://www.fl.ru//projects/5308107/sayt-s-veb-interfeysom-postgre.html'), ('Нужно подключить платёжную систему Продамус для платежей.', 'https://www.fl.ru//projects/5308153/nujno-podklyuchit-platjnuyu-sistemu-prodamus-dlya-platejey.html'), ('Переписать код на NodeJS под TypeScript по шаблону', 'https://www.fl.ru//projects/5308109/perepisat-kod-na-nodejs-pod-typescript-po-shablonu.html'), ('Исполнитель определён', 'https://www.fl.ru//projects/5308109/perepisat-kod-na-nodejs-pod-typescript-po-shablonu.html'), ('Опытный ангуляр специалист для задачи', 'https://www.fl.ru//projects/5307983/opyitnyiy-angulyar-spetsialist-dlya-zadachi.html'), ('Разработка онлайн конструктора детских площадок', 'https://www.fl.ru//projects/5308072/razrabotka-onlayn-konstruktora-detskih-ploschadok.html'), ('Front-end разработчик (от Middle) в большой проект (VUE3)', 'https://www.fl.ru//projects/5301926/front-end-razrabotchik-ot-middle-v-bolshoy-proekt-vue3.html'), ('Опытный Frontend developer', 'https://www.fl.ru//projects/5308001/opyitnyiy-frontend-developer.html'), ('Разработка виджетов AmoCRM и не только', 'https://www.fl.ru//projects/5308065/razrabotka-vidjetov-amocrm-i-ne-tolko.html'), ('Сгенерировать фид в формате Яндекс Недвижимости', 'https://www.fl.ru//projects/5308061/sgenerirovat-fid-v-formate-yandeks-nedvijimosti.html'), ('Сделать апселл. Допродажа нескольких товаров в процессе заказа.', 'https://www.fl.ru//projects/5308027/sdelat-apsell-doprodaja-neskolkih-tovarov-v-protsesse-zakaza.html'), ('Backend PHP разработчик со знанием symphony', 'https://www.fl.ru//projects/5307977/backend-php-razrabotchik-so-znaniem-symphony.html'), ('HTML верстка в Sendsay', 'https://www.fl.ru//projects/5308020/html-verstka-v-sendsay.html'), ('Компонент для Битрикс', 'https://www.fl.ru//projects/5307995/komponent-dlya-bitriks.html'), ('Настроить лендинг на Netcat', 'https://www.fl.ru//projects/5307886/nastroit-lending-na-netcat.html'), ('Доработка сайта на MODX CMS', 'https://www.fl.ru//projects/5307924/dorabotka-sayta-na-modx-cms.html'), ('Firebase Custom Tokens ', 'https://www.fl.ru//projects/5307938/firebase-custom-tokens-.html')]
+2024-04-11 15:30:45,344 - logger - INFO - [('Интеграции с платформы вбсист на платформу мой склад', 'https://www.fl.ru//projects/5308381/integratsii-s-platformyi-vbsist-na-platformu-moy-sklad.html'), ('Доработка MUI административной панели', 'https://www.fl.ru//projects/5308387/dorabotka-mui-administrativnoy-paneli.html'), ('Исправление ошибок у сайта на wordpress', 'https://www.fl.ru//projects/5308376/ispravlenie-oshibok-u-sayta-na-wordpress.html'), ('Сервис вебинаров и автовебинаров. (Node.js http фреймворк Express База MySQL) ', 'https://www.fl.ru//projects/5308351/servis-vebinarov-i-avtovebinarov-nodejs-http-freymvork-express-baza-mysql-.html'), ('Разработка web сайтв', 'https://www.fl.ru//projects/5308336/razrabotka-web-saytv.html'), ('Разработка и внедрение RestaurantSystem (RS) для оптимизации бронирования и управления заведениями', 'https://www.fl.ru//projects/5308301/razrabotka-i-vnedrenie-restaurantsystem-rs-dlya-optimizatsii-bronirovaniya-i-upravleniya-zavedeniyami.html'), ('Исправить выгрузку 1с в opncart 2.3', 'https://www.fl.ru//projects/5308278/ispravit-vyigruzku-1s-v-opncart-23.html'), ('Верстка и натяжка на joomla', 'https://www.fl.ru//projects/5308242/verstka-i-natyajka-na-joomla.html'), ('Разработка виджетов AmoCRM и не только', 'https://www.fl.ru//projects/5308196/razrabotka-vidjetov-amocrm-i-ne-tolko.html'), ('Внести правки в массив', 'https://www.fl.ru//projects/5308200/vnesti-pravki-v-massiv.html'), ('Разработка веб приложения для генерации ответа нашим клиентам через ChatGPT ', 'https://www.fl.ru//projects/5305963/razrabotka-veb-prilojeniya-dlya-generatsii-otveta-nashim-klientam-cherez-chatgpt-.html'), ('Настроить сервис «автопилот» на розыгрыш в ВК ', 'https://www.fl.ru//projects/5308141/nastroit-servis-avtopilot-na-rozyigryish-v-vk-.html'), ('Множественные кластеры на Яндекс.Карте', 'https://www.fl.ru//projects/5308094/mnojestvennyie-klasteryi-na-yandekskarte.html'), (' Разработка WEB-сервиса с поддержкой интерфейса IoT для контроля за устройствами умного дома  ', 'https://www.fl.ru//projects/5308124/-razrabotka-web-servisa-s-podderjkoy-interfeysa-iot-dlya-kontrolya-za-ustroystvami-umnogo-doma--.html'), ('Сайт с вэб интерфейсом Postgre', 'https://www.fl.ru//projects/5308107/sayt-s-veb-interfeysom-postgre.html'), ('Нужно подключить платёжную систему Продамус для платежей.', 'https://www.fl.ru//projects/5308153/nujno-podklyuchit-platjnuyu-sistemu-prodamus-dlya-platejey.html'), ('Переписать код на NodeJS под TypeScript по шаблону', 'https://www.fl.ru//projects/5308109/perepisat-kod-na-nodejs-pod-typescript-po-shablonu.html'), ('Исполнитель определён', 'https://www.fl.ru//projects/5308109/perepisat-kod-na-nodejs-pod-typescript-po-shablonu.html'), ('Опытный ангуляр специалист для задачи', 'https://www.fl.ru//projects/5307983/opyitnyiy-angulyar-spetsialist-dlya-zadachi.html'), ('Разработка онлайн конструктора детских площадок', 'https://www.fl.ru//projects/5308072/razrabotka-onlayn-konstruktora-detskih-ploschadok.html'), ('Front-end разработчик (от Middle) в большой проект (VUE3)', 'https://www.fl.ru//projects/5301926/front-end-razrabotchik-ot-middle-v-bolshoy-proekt-vue3.html'), ('Опытный Frontend developer', 'https://www.fl.ru//projects/5308001/opyitnyiy-frontend-developer.html'), ('Разработка виджетов AmoCRM и не только', 'https://www.fl.ru//projects/5308065/razrabotka-vidjetov-amocrm-i-ne-tolko.html'), ('Сгенерировать фид в формате Яндекс Недвижимости', 'https://www.fl.ru//projects/5308061/sgenerirovat-fid-v-formate-yandeks-nedvijimosti.html'), ('Сделать апселл. Допродажа нескольких товаров в процессе заказа.', 'https://www.fl.ru//projects/5308027/sdelat-apsell-doprodaja-neskolkih-tovarov-v-protsesse-zakaza.html'), ('Backend PHP разработчик со знанием symphony', 'https://www.fl.ru//projects/5307977/backend-php-razrabotchik-so-znaniem-symphony.html'), ('HTML верстка в Sendsay', 'https://www.fl.ru//projects/5308020/html-verstka-v-sendsay.html'), ('Компонент для Битрикс', 'https://www.fl.ru//projects/5307995/komponent-dlya-bitriks.html'), ('Настроить лендинг на Netcat', 'https://www.fl.ru//projects/5307886/nastroit-lending-na-netcat.html'), ('Доработка сайта на MODX CMS', 'https://www.fl.ru//projects/5307924/dorabotka-sayta-na-modx-cms.html'), ('Firebase Custom Tokens ', 'https://www.fl.ru//projects/5307938/firebase-custom-tokens-.html')]
+2024-04-11 15:31:12,813 - logger - INFO - [('Торговый бот binance', 'https://www.fl.ru//projects/5308442/torgovyiy-bot-binance.html'), ('Интеграции с платформы вбсист на платформу мой склад', 'https://www.fl.ru//projects/5308381/integratsii-s-platformyi-vbsist-na-platformu-moy-sklad.html'), ('Доработка MUI административной панели', 'https://www.fl.ru//projects/5308387/dorabotka-mui-administrativnoy-paneli.html'), ('Исправление ошибок у сайта на wordpress', 'https://www.fl.ru//projects/5308376/ispravlenie-oshibok-u-sayta-na-wordpress.html'), ('Сервис вебинаров и автовебинаров. (Node.js http фреймворк Express База MySQL) ', 'https://www.fl.ru//projects/5308351/servis-vebinarov-i-avtovebinarov-nodejs-http-freymvork-express-baza-mysql-.html'), ('Разработка web сайтв', 'https://www.fl.ru//projects/5308336/razrabotka-web-saytv.html'), ('Разработка и внедрение RestaurantSystem (RS) для оптимизации бронирования и управления заведениями', 'https://www.fl.ru//projects/5308301/razrabotka-i-vnedrenie-restaurantsystem-rs-dlya-optimizatsii-bronirovaniya-i-upravleniya-zavedeniyami.html'), ('Исправить выгрузку 1с в opncart 2.3', 'https://www.fl.ru//projects/5308278/ispravit-vyigruzku-1s-v-opncart-23.html'), ('Верстка и натяжка на joomla', 'https://www.fl.ru//projects/5308242/verstka-i-natyajka-na-joomla.html'), ('Разработка виджетов AmoCRM и не только', 'https://www.fl.ru//projects/5308196/razrabotka-vidjetov-amocrm-i-ne-tolko.html'), ('Внести правки в массив', 'https://www.fl.ru//projects/5308200/vnesti-pravki-v-massiv.html'), ('Разработка веб приложения для генерации ответа нашим клиентам через ChatGPT ', 'https://www.fl.ru//projects/5305963/razrabotka-veb-prilojeniya-dlya-generatsii-otveta-nashim-klientam-cherez-chatgpt-.html'), ('Настроить сервис «автопилот» на розыгрыш в ВК ', 'https://www.fl.ru//projects/5308141/nastroit-servis-avtopilot-na-rozyigryish-v-vk-.html'), ('Множественные кластеры на Яндекс.Карте', 'https://www.fl.ru//projects/5308094/mnojestvennyie-klasteryi-na-yandekskarte.html'), (' Разработка WEB-сервиса с поддержкой интерфейса IoT для контроля за устройствами умного дома  ', 'https://www.fl.ru//projects/5308124/-razrabotka-web-servisa-s-podderjkoy-interfeysa-iot-dlya-kontrolya-za-ustroystvami-umnogo-doma--.html'), ('Сайт с вэб интерфейсом Postgre', 'https://www.fl.ru//projects/5308107/sayt-s-veb-interfeysom-postgre.html'), ('Нужно подключить платёжную систему Продамус для платежей.', 'https://www.fl.ru//projects/5308153/nujno-podklyuchit-platjnuyu-sistemu-prodamus-dlya-platejey.html'), ('Переписать код на NodeJS под TypeScript по шаблону', 'https://www.fl.ru//projects/5308109/perepisat-kod-na-nodejs-pod-typescript-po-shablonu.html'), ('Исполнитель определён', 'https://www.fl.ru//projects/5308109/perepisat-kod-na-nodejs-pod-typescript-po-shablonu.html'), ('Опытный ангуляр специалист для задачи', 'https://www.fl.ru//projects/5307983/opyitnyiy-angulyar-spetsialist-dlya-zadachi.html'), ('Разработка онлайн конструктора детских площадок', 'https://www.fl.ru//projects/5308072/razrabotka-onlayn-konstruktora-detskih-ploschadok.html'), ('Front-end разработчик (от Middle) в большой проект (VUE3)', 'https://www.fl.ru//projects/5301926/front-end-razrabotchik-ot-middle-v-bolshoy-proekt-vue3.html'), ('Опытный Frontend developer', 'https://www.fl.ru//projects/5308001/opyitnyiy-frontend-developer.html'), ('Разработка виджетов AmoCRM и не только', 'https://www.fl.ru//projects/5308065/razrabotka-vidjetov-amocrm-i-ne-tolko.html'), ('Сгенерировать фид в формате Яндекс Недвижимости', 'https://www.fl.ru//projects/5308061/sgenerirovat-fid-v-formate-yandeks-nedvijimosti.html'), ('Сделать апселл. Допродажа нескольких товаров в процессе заказа.', 'https://www.fl.ru//projects/5308027/sdelat-apsell-doprodaja-neskolkih-tovarov-v-protsesse-zakaza.html'), ('Backend PHP разработчик со знанием symphony', 'https://www.fl.ru//projects/5307977/backend-php-razrabotchik-so-znaniem-symphony.html'), ('HTML верстка в Sendsay', 'https://www.fl.ru//projects/5308020/html-verstka-v-sendsay.html'), ('Компонент для Битрикс', 'https://www.fl.ru//projects/5307995/komponent-dlya-bitriks.html'), ('Настроить лендинг на Netcat', 'https://www.fl.ru//projects/5307886/nastroit-lending-na-netcat.html'), ('Доработка сайта на MODX CMS', 'https://www.fl.ru//projects/5307924/dorabotka-sayta-na-modx-cms.html')]
+2024-04-11 15:31:41,429 - logger - INFO - [('Торговый бот binance', 'https://www.fl.ru/projects/5308442/torgovyiy-bot-binance.html'), ('Интеграции с платформы вбсист на платформу мой склад', 'https://www.fl.ru/projects/5308381/integratsii-s-platformyi-vbsist-na-platformu-moy-sklad.html'), ('Доработка MUI административной панели', 'https://www.fl.ru/projects/5308387/dorabotka-mui-administrativnoy-paneli.html'), ('Исправление ошибок у сайта на wordpress', 'https://www.fl.ru/projects/5308376/ispravlenie-oshibok-u-sayta-na-wordpress.html'), ('Сервис вебинаров и автовебинаров. (Node.js http фреймворк Express База MySQL) ', 'https://www.fl.ru/projects/5308351/servis-vebinarov-i-avtovebinarov-nodejs-http-freymvork-express-baza-mysql-.html'), ('Разработка web сайтв', 'https://www.fl.ru/projects/5308336/razrabotka-web-saytv.html'), ('Разработка и внедрение RestaurantSystem (RS) для оптимизации бронирования и управления заведениями', 'https://www.fl.ru/projects/5308301/razrabotka-i-vnedrenie-restaurantsystem-rs-dlya-optimizatsii-bronirovaniya-i-upravleniya-zavedeniyami.html'), ('Исправить выгрузку 1с в opncart 2.3', 'https://www.fl.ru/projects/5308278/ispravit-vyigruzku-1s-v-opncart-23.html'), ('Верстка и натяжка на joomla', 'https://www.fl.ru/projects/5308242/verstka-i-natyajka-na-joomla.html'), ('Разработка виджетов AmoCRM и не только', 'https://www.fl.ru/projects/5308196/razrabotka-vidjetov-amocrm-i-ne-tolko.html'), ('Внести правки в массив', 'https://www.fl.ru/projects/5308200/vnesti-pravki-v-massiv.html'), ('Разработка веб приложения для генерации ответа нашим клиентам через ChatGPT ', 'https://www.fl.ru/projects/5305963/razrabotka-veb-prilojeniya-dlya-generatsii-otveta-nashim-klientam-cherez-chatgpt-.html'), ('Настроить сервис «автопилот» на розыгрыш в ВК ', 'https://www.fl.ru/projects/5308141/nastroit-servis-avtopilot-na-rozyigryish-v-vk-.html'), ('Множественные кластеры на Яндекс.Карте', 'https://www.fl.ru/projects/5308094/mnojestvennyie-klasteryi-na-yandekskarte.html'), (' Разработка WEB-сервиса с поддержкой интерфейса IoT для контроля за устройствами умного дома  ', 'https://www.fl.ru/projects/5308124/-razrabotka-web-servisa-s-podderjkoy-interfeysa-iot-dlya-kontrolya-za-ustroystvami-umnogo-doma--.html'), ('Сайт с вэб интерфейсом Postgre', 'https://www.fl.ru/projects/5308107/sayt-s-veb-interfeysom-postgre.html'), ('Нужно подключить платёжную систему Продамус для платежей.', 'https://www.fl.ru/projects/5308153/nujno-podklyuchit-platjnuyu-sistemu-prodamus-dlya-platejey.html'), ('Переписать код на NodeJS под TypeScript по шаблону', 'https://www.fl.ru/projects/5308109/perepisat-kod-na-nodejs-pod-typescript-po-shablonu.html'), ('Исполнитель определён', 'https://www.fl.ru/projects/5308109/perepisat-kod-na-nodejs-pod-typescript-po-shablonu.html'), ('Опытный ангуляр специалист для задачи', 'https://www.fl.ru/projects/5307983/opyitnyiy-angulyar-spetsialist-dlya-zadachi.html'), ('Разработка онлайн конструктора детских площадок', 'https://www.fl.ru/projects/5308072/razrabotka-onlayn-konstruktora-detskih-ploschadok.html'), ('Front-end разработчик (от Middle) в большой проект (VUE3)', 'https://www.fl.ru/projects/5301926/front-end-razrabotchik-ot-middle-v-bolshoy-proekt-vue3.html'), ('Опытный Frontend developer', 'https://www.fl.ru/projects/5308001/opyitnyiy-frontend-developer.html'), ('Разработка виджетов AmoCRM и не только', 'https://www.fl.ru/projects/5308065/razrabotka-vidjetov-amocrm-i-ne-tolko.html'), ('Сгенерировать фид в формате Яндекс Недвижимости', 'https://www.fl.ru/projects/5308061/sgenerirovat-fid-v-formate-yandeks-nedvijimosti.html'), ('Сделать апселл. Допродажа нескольких товаров в процессе заказа.', 'https://www.fl.ru/projects/5308027/sdelat-apsell-doprodaja-neskolkih-tovarov-v-protsesse-zakaza.html'), ('Backend PHP разработчик со знанием symphony', 'https://www.fl.ru/projects/5307977/backend-php-razrabotchik-so-znaniem-symphony.html'), ('HTML верстка в Sendsay', 'https://www.fl.ru/projects/5308020/html-verstka-v-sendsay.html'), ('Компонент для Битрикс', 'https://www.fl.ru/projects/5307995/komponent-dlya-bitriks.html'), ('Настроить лендинг на Netcat', 'https://www.fl.ru/projects/5307886/nastroit-lending-na-netcat.html'), ('Доработка сайта на MODX CMS', 'https://www.fl.ru/projects/5307924/dorabotka-sayta-na-modx-cms.html')]
+2024-04-11 15:32:32,968 - logger - INFO - [('Торговый бот binance', 'https://www.fl.ru/projects/5308442/torgovyiy-bot-binance.html'), ('Интеграции с платформы вбсист на платформу мой склад', 'https://www.fl.ru/projects/5308381/integratsii-s-platformyi-vbsist-na-platformu-moy-sklad.html'), ('Доработка MUI административной панели', 'https://www.fl.ru/projects/5308387/dorabotka-mui-administrativnoy-paneli.html'), ('Исправление ошибок у сайта на wordpress', 'https://www.fl.ru/projects/5308376/ispravlenie-oshibok-u-sayta-na-wordpress.html'), ('Сервис вебинаров и автовебинаров. (Node.js http фреймворк Express База MySQL) ', 'https://www.fl.ru/projects/5308351/servis-vebinarov-i-avtovebinarov-nodejs-http-freymvork-express-baza-mysql-.html'), ('Разработка web сайтв', 'https://www.fl.ru/projects/5308336/razrabotka-web-saytv.html'), ('Разработка и внедрение RestaurantSystem (RS) для оптимизации бронирования и управления заведениями', 'https://www.fl.ru/projects/5308301/razrabotka-i-vnedrenie-restaurantsystem-rs-dlya-optimizatsii-bronirovaniya-i-upravleniya-zavedeniyami.html'), ('Исправить выгрузку 1с в opncart 2.3', 'https://www.fl.ru/projects/5308278/ispravit-vyigruzku-1s-v-opncart-23.html'), ('Верстка и натяжка на joomla', 'https://www.fl.ru/projects/5308242/verstka-i-natyajka-na-joomla.html'), ('Разработка виджетов AmoCRM и не только', 'https://www.fl.ru/projects/5308196/razrabotka-vidjetov-amocrm-i-ne-tolko.html'), ('Внести правки в массив', 'https://www.fl.ru/projects/5308200/vnesti-pravki-v-massiv.html'), ('Разработка веб приложения для генерации ответа нашим клиентам через ChatGPT ', 'https://www.fl.ru/projects/5305963/razrabotka-veb-prilojeniya-dlya-generatsii-otveta-nashim-klientam-cherez-chatgpt-.html'), ('Настроить сервис «автопилот» на розыгрыш в ВК ', 'https://www.fl.ru/projects/5308141/nastroit-servis-avtopilot-na-rozyigryish-v-vk-.html'), ('Множественные кластеры на Яндекс.Карте', 'https://www.fl.ru/projects/5308094/mnojestvennyie-klasteryi-na-yandekskarte.html'), (' Разработка WEB-сервиса с поддержкой интерфейса IoT для контроля за устройствами умного дома  ', 'https://www.fl.ru/projects/5308124/-razrabotka-web-servisa-s-podderjkoy-interfeysa-iot-dlya-kontrolya-za-ustroystvami-umnogo-doma--.html'), ('Сайт с вэб интерфейсом Postgre', 'https://www.fl.ru/projects/5308107/sayt-s-veb-interfeysom-postgre.html'), ('Нужно подключить платёжную систему Продамус для платежей.', 'https://www.fl.ru/projects/5308153/nujno-podklyuchit-platjnuyu-sistemu-prodamus-dlya-platejey.html'), ('Переписать код на NodeJS под TypeScript по шаблону', 'https://www.fl.ru/projects/5308109/perepisat-kod-na-nodejs-pod-typescript-po-shablonu.html'), ('Исполнитель определён', 'https://www.fl.ru/projects/5308109/perepisat-kod-na-nodejs-pod-typescript-po-shablonu.html'), ('Опытный ангуляр специалист для задачи', 'https://www.fl.ru/projects/5307983/opyitnyiy-angulyar-spetsialist-dlya-zadachi.html'), ('Разработка онлайн конструктора детских площадок', 'https://www.fl.ru/projects/5308072/razrabotka-onlayn-konstruktora-detskih-ploschadok.html'), ('Front-end разработчик (от Middle) в большой проект (VUE3)', 'https://www.fl.ru/projects/5301926/front-end-razrabotchik-ot-middle-v-bolshoy-proekt-vue3.html'), ('Опытный Frontend developer', 'https://www.fl.ru/projects/5308001/opyitnyiy-frontend-developer.html'), ('Разработка виджетов AmoCRM и не только', 'https://www.fl.ru/projects/5308065/razrabotka-vidjetov-amocrm-i-ne-tolko.html'), ('Сгенерировать фид в формате Яндекс Недвижимости', 'https://www.fl.ru/projects/5308061/sgenerirovat-fid-v-formate-yandeks-nedvijimosti.html'), ('Сделать апселл. Допродажа нескольких товаров в процессе заказа.', 'https://www.fl.ru/projects/5308027/sdelat-apsell-doprodaja-neskolkih-tovarov-v-protsesse-zakaza.html'), ('Backend PHP разработчик со знанием symphony', 'https://www.fl.ru/projects/5307977/backend-php-razrabotchik-so-znaniem-symphony.html'), ('HTML верстка в Sendsay', 'https://www.fl.ru/projects/5308020/html-verstka-v-sendsay.html'), ('Компонент для Битрикс', 'https://www.fl.ru/projects/5307995/komponent-dlya-bitriks.html'), ('Настроить лендинг на Netcat', 'https://www.fl.ru/projects/5307886/nastroit-lending-na-netcat.html'), ('Доработка сайта на MODX CMS', 'https://www.fl.ru/projects/5307924/dorabotka-sayta-na-modx-cms.html')]
+2024-04-11 16:45:26,832 - logger - INFO - [('Выполнение задач по сайту на Bitrix (контент-менеджер)', 'https://www.fl.ru/projects/5308475/vyipolnenie-zadach-po-saytu-na-bitrix-kontent-menedjer.html'), ('Нужно переделать сайт на Битрикс по ТЗ', 'https://www.fl.ru/projects/5308470/nujno-peredelat-sayt-na-bitriks-po-tz.html'), ('Настройка очты на nic.ru. Настройка домена на timeweb.cloud ', 'https://www.fl.ru/projects/5308457/nastroyka-ochtyi-na-nicru-nastroyka-domena-na-timewebcloud-.html'), (' Интеграции с платформы вбсист на платформу мой склад', 'https://www.fl.ru/projects/5308452/-integratsii-s-platformyi-vbsist-na-platformu-moy-sklad.html'), ('Декодировка Swagger UI', 'https://www.fl.ru/projects/5308440/dekodirovka-swagger-ui.html'), ('Торговый бот binance', 'https://www.fl.ru/projects/5308442/torgovyiy-bot-binance.html'), ('Интеграции с платформы вбсист на платформу мой склад', 'https://www.fl.ru/projects/5308381/integratsii-s-platformyi-vbsist-na-platformu-moy-sklad.html'), ('Доработка MUI административной панели', 'https://www.fl.ru/projects/5308387/dorabotka-mui-administrativnoy-paneli.html'), ('Исправление ошибок у сайта на wordpress', 'https://www.fl.ru/projects/5308376/ispravlenie-oshibok-u-sayta-na-wordpress.html'), ('Сервис вебинаров и автовебинаров. (Node.js http фреймворк Express База MySQL) ', 'https://www.fl.ru/projects/5308351/servis-vebinarov-i-avtovebinarov-nodejs-http-freymvork-express-baza-mysql-.html'), ('Разработка web сайтв', 'https://www.fl.ru/projects/5308336/razrabotka-web-saytv.html'), ('Разработка и внедрение RestaurantSystem (RS) для оптимизации бронирования и управления заведениями', 'https://www.fl.ru/projects/5308301/razrabotka-i-vnedrenie-restaurantsystem-rs-dlya-optimizatsii-bronirovaniya-i-upravleniya-zavedeniyami.html'), ('Исправить выгрузку 1с в opncart 2.3', 'https://www.fl.ru/projects/5308278/ispravit-vyigruzku-1s-v-opncart-23.html'), ('Верстка и натяжка на joomla', 'https://www.fl.ru/projects/5308242/verstka-i-natyajka-na-joomla.html'), ('Разработка виджетов AmoCRM и не только', 'https://www.fl.ru/projects/5308196/razrabotka-vidjetov-amocrm-i-ne-tolko.html'), ('Внести правки в массив', 'https://www.fl.ru/projects/5308200/vnesti-pravki-v-massiv.html'), ('Разработка веб приложения для генерации ответа нашим клиентам через ChatGPT ', 'https://www.fl.ru/projects/5305963/razrabotka-veb-prilojeniya-dlya-generatsii-otveta-nashim-klientam-cherez-chatgpt-.html'), ('Настроить сервис «автопилот» на розыгрыш в ВК ', 'https://www.fl.ru/projects/5308141/nastroit-servis-avtopilot-na-rozyigryish-v-vk-.html'), ('Множественные кластеры на Яндекс.Карте', 'https://www.fl.ru/projects/5308094/mnojestvennyie-klasteryi-na-yandekskarte.html'), (' Разработка WEB-сервиса с поддержкой интерфейса IoT для контроля за устройствами умного дома  ', 'https://www.fl.ru/projects/5308124/-razrabotka-web-servisa-s-podderjkoy-interfeysa-iot-dlya-kontrolya-za-ustroystvami-umnogo-doma--.html'), ('Сайт с вэб интерфейсом Postgre', 'https://www.fl.ru/projects/5308107/sayt-s-veb-interfeysom-postgre.html'), ('Нужно подключить платёжную систему Продамус для платежей.', 'https://www.fl.ru/projects/5308153/nujno-podklyuchit-platjnuyu-sistemu-prodamus-dlya-platejey.html'), ('Переписать код на NodeJS под TypeScript по шаблону', 'https://www.fl.ru/projects/5308109/perepisat-kod-na-nodejs-pod-typescript-po-shablonu.html'), ('Исполнитель определён', 'https://www.fl.ru/projects/5308109/perepisat-kod-na-nodejs-pod-typescript-po-shablonu.html'), ('Опытный ангуляр специалист для задачи', 'https://www.fl.ru/projects/5307983/opyitnyiy-angulyar-spetsialist-dlya-zadachi.html'), ('Разработка онлайн конструктора детских площадок', 'https://www.fl.ru/projects/5308072/razrabotka-onlayn-konstruktora-detskih-ploschadok.html'), ('Front-end разработчик (от Middle) в большой проект (VUE3)', 'https://www.fl.ru/projects/5301926/front-end-razrabotchik-ot-middle-v-bolshoy-proekt-vue3.html'), ('Опытный Frontend developer', 'https://www.fl.ru/projects/5308001/opyitnyiy-frontend-developer.html'), ('Разработка виджетов AmoCRM и не только', 'https://www.fl.ru/projects/5308065/razrabotka-vidjetov-amocrm-i-ne-tolko.html'), ('Сгенерировать фид в формате Яндекс Недвижимости', 'https://www.fl.ru/projects/5308061/sgenerirovat-fid-v-formate-yandeks-nedvijimosti.html'), ('Сделать апселл. Допродажа нескольких товаров в процессе заказа.', 'https://www.fl.ru/projects/5308027/sdelat-apsell-doprodaja-neskolkih-tovarov-v-protsesse-zakaza.html')]
+2024-04-11 16:46:07,588 - logger - INFO - [('Выполнение задач по сайту на Bitrix (контент-менеджер)', 'https://www.fl.ru/projects/5308475/vyipolnenie-zadach-po-saytu-na-bitrix-kontent-menedjer.html'), ('Нужно переделать сайт на Битрикс по ТЗ', 'https://www.fl.ru/projects/5308470/nujno-peredelat-sayt-na-bitriks-po-tz.html'), ('Настройка очты на nic.ru. Настройка домена на timeweb.cloud ', 'https://www.fl.ru/projects/5308457/nastroyka-ochtyi-na-nicru-nastroyka-domena-na-timewebcloud-.html'), (' Интеграции с платформы вбсист на платформу мой склад', 'https://www.fl.ru/projects/5308452/-integratsii-s-platformyi-vbsist-na-platformu-moy-sklad.html'), ('Декодировка Swagger UI', 'https://www.fl.ru/projects/5308440/dekodirovka-swagger-ui.html'), ('Торговый бот binance', 'https://www.fl.ru/projects/5308442/torgovyiy-bot-binance.html'), ('Интеграции с платформы вбсист на платформу мой склад', 'https://www.fl.ru/projects/5308381/integratsii-s-platformyi-vbsist-na-platformu-moy-sklad.html'), ('Доработка MUI административной панели', 'https://www.fl.ru/projects/5308387/dorabotka-mui-administrativnoy-paneli.html'), ('Исправление ошибок у сайта на wordpress', 'https://www.fl.ru/projects/5308376/ispravlenie-oshibok-u-sayta-na-wordpress.html'), ('Сервис вебинаров и автовебинаров. (Node.js http фреймворк Express База MySQL) ', 'https://www.fl.ru/projects/5308351/servis-vebinarov-i-avtovebinarov-nodejs-http-freymvork-express-baza-mysql-.html'), ('Разработка web сайтв', 'https://www.fl.ru/projects/5308336/razrabotka-web-saytv.html'), ('Разработка и внедрение RestaurantSystem (RS) для оптимизации бронирования и управления заведениями', 'https://www.fl.ru/projects/5308301/razrabotka-i-vnedrenie-restaurantsystem-rs-dlya-optimizatsii-bronirovaniya-i-upravleniya-zavedeniyami.html'), ('Исправить выгрузку 1с в opncart 2.3', 'https://www.fl.ru/projects/5308278/ispravit-vyigruzku-1s-v-opncart-23.html'), ('Верстка и натяжка на joomla', 'https://www.fl.ru/projects/5308242/verstka-i-natyajka-na-joomla.html'), ('Разработка виджетов AmoCRM и не только', 'https://www.fl.ru/projects/5308196/razrabotka-vidjetov-amocrm-i-ne-tolko.html'), ('Внести правки в массив', 'https://www.fl.ru/projects/5308200/vnesti-pravki-v-massiv.html'), ('Разработка веб приложения для генерации ответа нашим клиентам через ChatGPT ', 'https://www.fl.ru/projects/5305963/razrabotka-veb-prilojeniya-dlya-generatsii-otveta-nashim-klientam-cherez-chatgpt-.html'), ('Настроить сервис «автопилот» на розыгрыш в ВК ', 'https://www.fl.ru/projects/5308141/nastroit-servis-avtopilot-na-rozyigryish-v-vk-.html'), ('Множественные кластеры на Яндекс.Карте', 'https://www.fl.ru/projects/5308094/mnojestvennyie-klasteryi-na-yandekskarte.html'), (' Разработка WEB-сервиса с поддержкой интерфейса IoT для контроля за устройствами умного дома  ', 'https://www.fl.ru/projects/5308124/-razrabotka-web-servisa-s-podderjkoy-interfeysa-iot-dlya-kontrolya-za-ustroystvami-umnogo-doma--.html'), ('Сайт с вэб интерфейсом Postgre', 'https://www.fl.ru/projects/5308107/sayt-s-veb-interfeysom-postgre.html'), ('Нужно подключить платёжную систему Продамус для платежей.', 'https://www.fl.ru/projects/5308153/nujno-podklyuchit-platjnuyu-sistemu-prodamus-dlya-platejey.html'), ('Переписать код на NodeJS под TypeScript по шаблону', 'https://www.fl.ru/projects/5308109/perepisat-kod-na-nodejs-pod-typescript-po-shablonu.html'), ('Исполнитель определён', 'https://www.fl.ru/projects/5308109/perepisat-kod-na-nodejs-pod-typescript-po-shablonu.html'), ('Опытный ангуляр специалист для задачи', 'https://www.fl.ru/projects/5307983/opyitnyiy-angulyar-spetsialist-dlya-zadachi.html'), ('Разработка онлайн конструктора детских площадок', 'https://www.fl.ru/projects/5308072/razrabotka-onlayn-konstruktora-detskih-ploschadok.html'), ('Front-end разработчик (от Middle) в большой проект (VUE3)', 'https://www.fl.ru/projects/5301926/front-end-razrabotchik-ot-middle-v-bolshoy-proekt-vue3.html'), ('Опытный Frontend developer', 'https://www.fl.ru/projects/5308001/opyitnyiy-frontend-developer.html'), ('Разработка виджетов AmoCRM и не только', 'https://www.fl.ru/projects/5308065/razrabotka-vidjetov-amocrm-i-ne-tolko.html'), ('Сгенерировать фид в формате Яндекс Недвижимости', 'https://www.fl.ru/projects/5308061/sgenerirovat-fid-v-formate-yandeks-nedvijimosti.html'), ('Сделать апселл. Допродажа нескольких товаров в процессе заказа.', 'https://www.fl.ru/projects/5308027/sdelat-apsell-doprodaja-neskolkih-tovarov-v-protsesse-zakaza.html')]
+2024-04-11 16:46:33,479 - logger - INFO - [('Обновить вёрстку сайта под AMP', 'https://www.fl.ru/projects/5308484/obnovit-vrstku-sayta-pod-amp.html'), ('Выполнение задач по сайту на Bitrix (контент-менеджер)', 'https://www.fl.ru/projects/5308475/vyipolnenie-zadach-po-saytu-na-bitrix-kontent-menedjer.html'), ('Нужно переделать сайт на Битрикс по ТЗ', 'https://www.fl.ru/projects/5308470/nujno-peredelat-sayt-na-bitriks-po-tz.html'), ('Настройка очты на nic.ru. Настройка домена на timeweb.cloud ', 'https://www.fl.ru/projects/5308457/nastroyka-ochtyi-na-nicru-nastroyka-domena-na-timewebcloud-.html'), (' Интеграции с платформы вбсист на платформу мой склад', 'https://www.fl.ru/projects/5308452/-integratsii-s-platformyi-vbsist-na-platformu-moy-sklad.html'), ('Декодировка Swagger UI', 'https://www.fl.ru/projects/5308440/dekodirovka-swagger-ui.html'), ('Торговый бот binance', 'https://www.fl.ru/projects/5308442/torgovyiy-bot-binance.html'), ('Интеграции с платформы вбсист на платформу мой склад', 'https://www.fl.ru/projects/5308381/integratsii-s-platformyi-vbsist-na-platformu-moy-sklad.html'), ('Доработка MUI административной панели', 'https://www.fl.ru/projects/5308387/dorabotka-mui-administrativnoy-paneli.html'), ('Исправление ошибок у сайта на wordpress', 'https://www.fl.ru/projects/5308376/ispravlenie-oshibok-u-sayta-na-wordpress.html'), ('Сервис вебинаров и автовебинаров. (Node.js http фреймворк Express База MySQL) ', 'https://www.fl.ru/projects/5308351/servis-vebinarov-i-avtovebinarov-nodejs-http-freymvork-express-baza-mysql-.html'), ('Разработка web сайтв', 'https://www.fl.ru/projects/5308336/razrabotka-web-saytv.html'), ('Разработка и внедрение RestaurantSystem (RS) для оптимизации бронирования и управления заведениями', 'https://www.fl.ru/projects/5308301/razrabotka-i-vnedrenie-restaurantsystem-rs-dlya-optimizatsii-bronirovaniya-i-upravleniya-zavedeniyami.html'), ('Исправить выгрузку 1с в opncart 2.3', 'https://www.fl.ru/projects/5308278/ispravit-vyigruzku-1s-v-opncart-23.html'), ('Верстка и натяжка на joomla', 'https://www.fl.ru/projects/5308242/verstka-i-natyajka-na-joomla.html'), ('Разработка виджетов AmoCRM и не только', 'https://www.fl.ru/projects/5308196/razrabotka-vidjetov-amocrm-i-ne-tolko.html'), ('Внести правки в массив', 'https://www.fl.ru/projects/5308200/vnesti-pravki-v-massiv.html'), ('Разработка веб приложения для генерации ответа нашим клиентам через ChatGPT ', 'https://www.fl.ru/projects/5305963/razrabotka-veb-prilojeniya-dlya-generatsii-otveta-nashim-klientam-cherez-chatgpt-.html'), ('Настроить сервис «автопилот» на розыгрыш в ВК ', 'https://www.fl.ru/projects/5308141/nastroit-servis-avtopilot-na-rozyigryish-v-vk-.html'), ('Множественные кластеры на Яндекс.Карте', 'https://www.fl.ru/projects/5308094/mnojestvennyie-klasteryi-na-yandekskarte.html'), (' Разработка WEB-сервиса с поддержкой интерфейса IoT для контроля за устройствами умного дома  ', 'https://www.fl.ru/projects/5308124/-razrabotka-web-servisa-s-podderjkoy-interfeysa-iot-dlya-kontrolya-za-ustroystvami-umnogo-doma--.html'), ('Сайт с вэб интерфейсом Postgre', 'https://www.fl.ru/projects/5308107/sayt-s-veb-interfeysom-postgre.html'), ('Нужно подключить платёжную систему Продамус для платежей.', 'https://www.fl.ru/projects/5308153/nujno-podklyuchit-platjnuyu-sistemu-prodamus-dlya-platejey.html'), ('Переписать код на NodeJS под TypeScript по шаблону', 'https://www.fl.ru/projects/5308109/perepisat-kod-na-nodejs-pod-typescript-po-shablonu.html'), ('Исполнитель определён', 'https://www.fl.ru/projects/5308109/perepisat-kod-na-nodejs-pod-typescript-po-shablonu.html'), ('Опытный ангуляр специалист для задачи', 'https://www.fl.ru/projects/5307983/opyitnyiy-angulyar-spetsialist-dlya-zadachi.html'), ('Разработка онлайн конструктора детских площадок', 'https://www.fl.ru/projects/5308072/razrabotka-onlayn-konstruktora-detskih-ploschadok.html'), ('Front-end разработчик (от Middle) в большой проект (VUE3)', 'https://www.fl.ru/projects/5301926/front-end-razrabotchik-ot-middle-v-bolshoy-proekt-vue3.html'), ('Опытный Frontend developer', 'https://www.fl.ru/projects/5308001/opyitnyiy-frontend-developer.html'), ('Разработка виджетов AmoCRM и не только', 'https://www.fl.ru/projects/5308065/razrabotka-vidjetov-amocrm-i-ne-tolko.html'), ('Сгенерировать фид в формате Яндекс Недвижимости', 'https://www.fl.ru/projects/5308061/sgenerirovat-fid-v-formate-yandeks-nedvijimosti.html')]
+2024-04-11 16:51:29,121 - logger - INFO - [('Сервис вебинаров и автовебинаров. (Node.js http фреймворк Express База MySQL) ', 'https://www.fl.ru/projects/5308351/servis-vebinarov-i-avtovebinarov-nodejs-http-freymvork-express-baza-mysql-.html'), ('Разработка web сайтв', 'https://www.fl.ru/projects/5308336/razrabotka-web-saytv.html'), ('Разработка и внедрение RestaurantSystem (RS) для оптимизации бронирования и управления заведениями', 'https://www.fl.ru/projects/5308301/razrabotka-i-vnedrenie-restaurantsystem-rs-dlya-optimizatsii-bronirovaniya-i-upravleniya-zavedeniyami.html'), ('Исправить выгрузку 1с в opncart 2.3', 'https://www.fl.ru/projects/5308278/ispravit-vyigruzku-1s-v-opncart-23.html'), ('Верстка и натяжка на joomla', 'https://www.fl.ru/projects/5308242/verstka-i-natyajka-na-joomla.html'), ('Разработка виджетов AmoCRM и не только', 'https://www.fl.ru/projects/5308196/razrabotka-vidjetov-amocrm-i-ne-tolko.html'), ('Внести правки в массив', 'https://www.fl.ru/projects/5308200/vnesti-pravki-v-massiv.html'), ('Разработка веб приложения для генерации ответа нашим клиентам через ChatGPT ', 'https://www.fl.ru/projects/5305963/razrabotka-veb-prilojeniya-dlya-generatsii-otveta-nashim-klientam-cherez-chatgpt-.html'), ('Настроить сервис «автопилот» на розыгрыш в ВК ', 'https://www.fl.ru/projects/5308141/nastroit-servis-avtopilot-na-rozyigryish-v-vk-.html'), ('Множественные кластеры на Яндекс.Карте', 'https://www.fl.ru/projects/5308094/mnojestvennyie-klasteryi-na-yandekskarte.html'), (' Разработка WEB-сервиса с поддержкой интерфейса IoT для контроля за устройствами умного дома  ', 'https://www.fl.ru/projects/5308124/-razrabotka-web-servisa-s-podderjkoy-interfeysa-iot-dlya-kontrolya-za-ustroystvami-umnogo-doma--.html'), ('Сайт с вэб интерфейсом Postgre', 'https://www.fl.ru/projects/5308107/sayt-s-veb-interfeysom-postgre.html'), ('Нужно подключить платёжную систему Продамус для платежей.', 'https://www.fl.ru/projects/5308153/nujno-podklyuchit-platjnuyu-sistemu-prodamus-dlya-platejey.html'), ('Переписать код на NodeJS под TypeScript по шаблону', 'https://www.fl.ru/projects/5308109/perepisat-kod-na-nodejs-pod-typescript-po-shablonu.html'), ('Исполнитель определён', 'https://www.fl.ru/projects/5308109/perepisat-kod-na-nodejs-pod-typescript-po-shablonu.html'), ('Опытный ангуляр специалист для задачи', 'https://www.fl.ru/projects/5307983/opyitnyiy-angulyar-spetsialist-dlya-zadachi.html'), ('Разработка онлайн конструктора детских площадок', 'https://www.fl.ru/projects/5308072/razrabotka-onlayn-konstruktora-detskih-ploschadok.html'), ('Front-end разработчик (от Middle) в большой проект (VUE3)', 'https://www.fl.ru/projects/5301926/front-end-razrabotchik-ot-middle-v-bolshoy-proekt-vue3.html'), ('Опытный Frontend developer', 'https://www.fl.ru/projects/5308001/opyitnyiy-frontend-developer.html'), ('Разработка виджетов AmoCRM и не только', 'https://www.fl.ru/projects/5308065/razrabotka-vidjetov-amocrm-i-ne-tolko.html'), ('Сгенерировать фид в формате Яндекс Недвижимости', 'https://www.fl.ru/projects/5308061/sgenerirovat-fid-v-formate-yandeks-nedvijimosti.html')]
+2024-04-11 16:52:16,847 - logger - INFO - [('Сервис вебинаров и автовебинаров. (Node.js http фреймворк Express База MySQL) ', 'https://www.fl.ru/projects/5308351/servis-vebinarov-i-avtovebinarov-nodejs-http-freymvork-express-baza-mysql-.html'), ('Разработка web сайтв', 'https://www.fl.ru/projects/5308336/razrabotka-web-saytv.html'), ('Разработка и внедрение RestaurantSystem (RS) для оптимизации бронирования и управления заведениями', 'https://www.fl.ru/projects/5308301/razrabotka-i-vnedrenie-restaurantsystem-rs-dlya-optimizatsii-bronirovaniya-i-upravleniya-zavedeniyami.html'), ('Исправить выгрузку 1с в opncart 2.3', 'https://www.fl.ru/projects/5308278/ispravit-vyigruzku-1s-v-opncart-23.html'), ('Верстка и натяжка на joomla', 'https://www.fl.ru/projects/5308242/verstka-i-natyajka-na-joomla.html'), ('Разработка виджетов AmoCRM и не только', 'https://www.fl.ru/projects/5308196/razrabotka-vidjetov-amocrm-i-ne-tolko.html'), ('Внести правки в массив', 'https://www.fl.ru/projects/5308200/vnesti-pravki-v-massiv.html'), ('Разработка веб приложения для генерации ответа нашим клиентам через ChatGPT ', 'https://www.fl.ru/projects/5305963/razrabotka-veb-prilojeniya-dlya-generatsii-otveta-nashim-klientam-cherez-chatgpt-.html'), ('Настроить сервис «автопилот» на розыгрыш в ВК ', 'https://www.fl.ru/projects/5308141/nastroit-servis-avtopilot-na-rozyigryish-v-vk-.html'), ('Множественные кластеры на Яндекс.Карте', 'https://www.fl.ru/projects/5308094/mnojestvennyie-klasteryi-na-yandekskarte.html'), (' Разработка WEB-сервиса с поддержкой интерфейса IoT для контроля за устройствами умного дома  ', 'https://www.fl.ru/projects/5308124/-razrabotka-web-servisa-s-podderjkoy-interfeysa-iot-dlya-kontrolya-za-ustroystvami-umnogo-doma--.html'), ('Сайт с вэб интерфейсом Postgre', 'https://www.fl.ru/projects/5308107/sayt-s-veb-interfeysom-postgre.html'), ('Нужно подключить платёжную систему Продамус для платежей.', 'https://www.fl.ru/projects/5308153/nujno-podklyuchit-platjnuyu-sistemu-prodamus-dlya-platejey.html'), ('Переписать код на NodeJS под TypeScript по шаблону', 'https://www.fl.ru/projects/5308109/perepisat-kod-na-nodejs-pod-typescript-po-shablonu.html'), ('Исполнитель определён', 'https://www.fl.ru/projects/5308109/perepisat-kod-na-nodejs-pod-typescript-po-shablonu.html'), ('Опытный ангуляр специалист для задачи', 'https://www.fl.ru/projects/5307983/opyitnyiy-angulyar-spetsialist-dlya-zadachi.html'), ('Разработка онлайн конструктора детских площадок', 'https://www.fl.ru/projects/5308072/razrabotka-onlayn-konstruktora-detskih-ploschadok.html'), ('Front-end разработчик (от Middle) в большой проект (VUE3)', 'https://www.fl.ru/projects/5301926/front-end-razrabotchik-ot-middle-v-bolshoy-proekt-vue3.html'), ('Опытный Frontend developer', 'https://www.fl.ru/projects/5308001/opyitnyiy-frontend-developer.html'), ('Разработка виджетов AmoCRM и не только', 'https://www.fl.ru/projects/5308065/razrabotka-vidjetov-amocrm-i-ne-tolko.html'), ('Сгенерировать фид в формате Яндекс Недвижимости', 'https://www.fl.ru/projects/5308061/sgenerirovat-fid-v-formate-yandeks-nedvijimosti.html')]
+2024-04-11 16:52:50,613 - logger - INFO - [('Обновить вёрстку сайта под AMP', 'https://www.fl.ru/projects/5308484/obnovit-vrstku-sayta-pod-amp.html'), ('Выполнение задач по сайту на Bitrix (контент-менеджер)', 'https://www.fl.ru/projects/5308475/vyipolnenie-zadach-po-saytu-na-bitrix-kontent-menedjer.html'), ('Нужно переделать сайт на Битрикс по ТЗ', 'https://www.fl.ru/projects/5308470/nujno-peredelat-sayt-na-bitriks-po-tz.html'), ('Настройка очты на nic.ru. Настройка домена на timeweb.cloud ', 'https://www.fl.ru/projects/5308457/nastroyka-ochtyi-na-nicru-nastroyka-domena-na-timewebcloud-.html'), (' Интеграции с платформы вбсист на платформу мой склад', 'https://www.fl.ru/projects/5308452/-integratsii-s-platformyi-vbsist-na-platformu-moy-sklad.html'), ('Декодировка Swagger UI', 'https://www.fl.ru/projects/5308440/dekodirovka-swagger-ui.html'), ('Торговый бот binance', 'https://www.fl.ru/projects/5308442/torgovyiy-bot-binance.html'), ('Интеграции с платформы вбсист на платформу мой склад', 'https://www.fl.ru/projects/5308381/integratsii-s-platformyi-vbsist-na-platformu-moy-sklad.html'), ('Доработка MUI административной панели', 'https://www.fl.ru/projects/5308387/dorabotka-mui-administrativnoy-paneli.html'), ('Исправление ошибок у сайта на wordpress', 'https://www.fl.ru/projects/5308376/ispravlenie-oshibok-u-sayta-na-wordpress.html'), ('Сервис вебинаров и автовебинаров. (Node.js http фреймворк Express База MySQL) ', 'https://www.fl.ru/projects/5308351/servis-vebinarov-i-avtovebinarov-nodejs-http-freymvork-express-baza-mysql-.html'), ('Разработка web сайтв', 'https://www.fl.ru/projects/5308336/razrabotka-web-saytv.html'), ('Разработка и внедрение RestaurantSystem (RS) для оптимизации бронирования и управления заведениями', 'https://www.fl.ru/projects/5308301/razrabotka-i-vnedrenie-restaurantsystem-rs-dlya-optimizatsii-bronirovaniya-i-upravleniya-zavedeniyami.html'), ('Исправить выгрузку 1с в opncart 2.3', 'https://www.fl.ru/projects/5308278/ispravit-vyigruzku-1s-v-opncart-23.html'), ('Верстка и натяжка на joomla', 'https://www.fl.ru/projects/5308242/verstka-i-natyajka-na-joomla.html'), ('Разработка виджетов AmoCRM и не только', 'https://www.fl.ru/projects/5308196/razrabotka-vidjetov-amocrm-i-ne-tolko.html'), ('Внести правки в массив', 'https://www.fl.ru/projects/5308200/vnesti-pravki-v-massiv.html'), ('Разработка веб приложения для генерации ответа нашим клиентам через ChatGPT ', 'https://www.fl.ru/projects/5305963/razrabotka-veb-prilojeniya-dlya-generatsii-otveta-nashim-klientam-cherez-chatgpt-.html'), ('Настроить сервис «автопилот» на розыгрыш в ВК ', 'https://www.fl.ru/projects/5308141/nastroit-servis-avtopilot-na-rozyigryish-v-vk-.html'), ('Множественные кластеры на Яндекс.Карте', 'https://www.fl.ru/projects/5308094/mnojestvennyie-klasteryi-na-yandekskarte.html'), (' Разработка WEB-сервиса с поддержкой интерфейса IoT для контроля за устройствами умного дома  ', 'https://www.fl.ru/projects/5308124/-razrabotka-web-servisa-s-podderjkoy-interfeysa-iot-dlya-kontrolya-za-ustroystvami-umnogo-doma--.html'), ('Сайт с вэб интерфейсом Postgre', 'https://www.fl.ru/projects/5308107/sayt-s-veb-interfeysom-postgre.html'), ('Нужно подключить платёжную систему Продамус для платежей.', 'https://www.fl.ru/projects/5308153/nujno-podklyuchit-platjnuyu-sistemu-prodamus-dlya-platejey.html'), ('Переписать код на NodeJS под TypeScript по шаблону', 'https://www.fl.ru/projects/5308109/perepisat-kod-na-nodejs-pod-typescript-po-shablonu.html'), ('Исполнитель определён', 'https://www.fl.ru/projects/5308109/perepisat-kod-na-nodejs-pod-typescript-po-shablonu.html'), ('Опытный ангуляр специалист для задачи', 'https://www.fl.ru/projects/5307983/opyitnyiy-angulyar-spetsialist-dlya-zadachi.html'), ('Разработка онлайн конструктора детских площадок', 'https://www.fl.ru/projects/5308072/razrabotka-onlayn-konstruktora-detskih-ploschadok.html'), ('Front-end разработчик (от Middle) в большой проект (VUE3)', 'https://www.fl.ru/projects/5301926/front-end-razrabotchik-ot-middle-v-bolshoy-proekt-vue3.html'), ('Опытный Frontend developer', 'https://www.fl.ru/projects/5308001/opyitnyiy-frontend-developer.html'), ('Разработка виджетов AmoCRM и не только', 'https://www.fl.ru/projects/5308065/razrabotka-vidjetov-amocrm-i-ne-tolko.html'), ('Сгенерировать фид в формате Яндекс Недвижимости', 'https://www.fl.ru/projects/5308061/sgenerirovat-fid-v-formate-yandeks-nedvijimosti.html')]
+2024-04-11 16:53:23,003 - logger - INFO - [('Обновить вёрстку сайта под AMP', 'https://www.fl.ru/projects/5308484/obnovit-vrstku-sayta-pod-amp.html'), ('Выполнение задач по сайту на Bitrix (контент-менеджер)', 'https://www.fl.ru/projects/5308475/vyipolnenie-zadach-po-saytu-na-bitrix-kontent-menedjer.html'), ('Нужно переделать сайт на Битрикс по ТЗ', 'https://www.fl.ru/projects/5308470/nujno-peredelat-sayt-na-bitriks-po-tz.html'), ('Настройка очты на nic.ru. Настройка домена на timeweb.cloud ', 'https://www.fl.ru/projects/5308457/nastroyka-ochtyi-na-nicru-nastroyka-domena-na-timewebcloud-.html'), (' Интеграции с платформы вбсист на платформу мой склад', 'https://www.fl.ru/projects/5308452/-integratsii-s-platformyi-vbsist-na-platformu-moy-sklad.html'), ('Декодировка Swagger UI', 'https://www.fl.ru/projects/5308440/dekodirovka-swagger-ui.html'), ('Торговый бот binance', 'https://www.fl.ru/projects/5308442/torgovyiy-bot-binance.html'), ('Интеграции с платформы вбсист на платформу мой склад', 'https://www.fl.ru/projects/5308381/integratsii-s-platformyi-vbsist-na-platformu-moy-sklad.html'), ('Доработка MUI административной панели', 'https://www.fl.ru/projects/5308387/dorabotka-mui-administrativnoy-paneli.html'), ('Исправление ошибок у сайта на wordpress', 'https://www.fl.ru/projects/5308376/ispravlenie-oshibok-u-sayta-na-wordpress.html')]
+2024-04-11 17:32:28,667 - logger - INFO - [('Нужно найти ошибки на сайте и доделать frontend', 'https://fl.ru//projects/5308420/nujno-nayti-oshibki-na-sayte-i-dodelat-frontend.html'), ('Оптимизировать скорость вордпресс под Google PageSpeed и в вебмастере', 'https://fl.ru//projects/5308408/optimizirovat-skorost-vordpress-pod-google-pagespeed-i-v-vebmastere.html'), ('Создание карточек ВБ, ОЗОН', 'https://fl.ru//projects/5308349/sozdanie-kartochek-vb-ozon.html'), ('Парсинг push уведомлений с телефона/эмулятора с последующей записью в mysql .', 'https://fl.ru//projects/5308293/parsing-push-uvedomleniy-s-telefona-emulyatora-s-posleduyuschey-zapisyu-v-mysql-.html'), ('Дизайн промо слайдов для видео баннера. ', 'https://fl.ru//projects/5308263/dizayn-promo-slaydov-dlya-video-bannera-.html'), ('Схема СОДК', 'https://fl.ru//projects/5308161/shema-sodk.html'), ('Скрипт на Python: получить-показать сообщения', 'https://fl.ru//projects/5308134/skript-na-python-poluchit-pokazat-soobscheniya.html'), (' Форумчанин для общения на форум финансовой тематики', 'https://fl.ru//projects/5298557/-forumchanin-dlya-obscheniya-na-forum-finansovoy-tematiki.html'), ('Схемотехник', 'https://fl.ru//projects/5308450/shemotehnik.html'), ('Помощник / Разнорабочий', 'https://fl.ru//projects/5307932/pomoschnik---raznorabochiy.html'), ('Поменять цвет на фото', 'https://fl.ru//projects/5308502/pomenyat-tsvet-na-foto.html'), ('Внедрить голосовой помощник в проект на React Native', 'https://fl.ru//projects/5308500/vnedrit-golosovoy-pomoschnik-v-proekt-na-react-native.html'), ('Макет коробки', 'https://fl.ru//projects/5308501/maket-korobki.html'), ('СММ менеджер для мед SPA', 'https://fl.ru//projects/5308490/smm-menedjer-dlya-med-spa.html'), ('Таплинк', 'https://fl.ru//projects/5308499/taplink.html'), ('Разработка сайта на Tilda', 'https://fl.ru//projects/5308496/razrabotka-sayta-na-tilda.html'), ('Написать претензии к ИП', 'https://fl.ru//projects/5308487/napisat-pretenzii-k-ip.html'), ('Помощь в кастомизации и доработке emulatorjs', 'https://fl.ru//projects/5308498/pomosch-v-kastomizatsii-i-dorabotke-emulatorjs.html'), ('Рассылки в инстаграм по экспертам', 'https://fl.ru//projects/5308492/rassyilki-v-instagram-po-ekspertam.html'), ('Сделать редизайн корпоративной презентации', 'https://fl.ru//projects/5308491/sdelat-redizayn-korporativnoy-prezentatsii.html'), ('Дизайн для сайта', 'https://fl.ru//projects/5308494/dizayn-dlya-sayta.html'), ('Нужно устранить спам на сайте', 'https://fl.ru//projects/5308488/nujno-ustranit-spam-na-sayte.html'), ('Доработать вебпроект со стеком: yii2, jquery, vue', 'https://fl.ru//projects/5308485/dorabotat-vebproekt-so-stekom-yii2-jquery-vue.html'), ('Комплексное улучшение визуального стиля SaaS-сервиса для бизнеса', 'https://fl.ru//projects/5308253/kompleksnoe-uluchshenie-vizualnogo-stilya-saas-servisa-dlya-biznesa.html'), ('Обновить вёрстку сайта под AMP', 'https://fl.ru//projects/5308484/obnovit-vrstku-sayta-pod-amp.html'), ('Настройка Google Ads', 'https://fl.ru//projects/5308483/nastroyka-google-ads.html'), ('Проект каркасного дома КР+АР', 'https://fl.ru//projects/5308480/proekt-karkasnogo-doma-krar.html'), ('Создать телеграм канал с ботами и автопросмотрами/автореакциями', 'https://fl.ru//projects/5308478/sozdat-telegram-kanal-s-botami-i-avtoprosmotrami-avtoreaktsiyami.html'), ('SEO специалист Яндекс, Google', 'https://fl.ru//projects/5308468/seo-spetsialist-yandeks-google.html'), ('Настроить аккаунт WABA', 'https://fl.ru//projects/5308477/nastroit-akkaunt-waba.html')]
+2024-04-11 17:33:00,879 - logger - INFO - Нужно найти ошибки на сайте и доделать frontend https://fl.ru//projects/5308420/nujno-nayti-oshibki-na-sayte-i-dodelat-frontend.html
+
+Оптимизировать скорость вордпресс под Google PageSpeed и в вебмастере https://fl.ru//projects/5308408/optimizirovat-skorost-vordpress-pod-google-pagespeed-i-v-vebmastere.html
+
+Создание карточек ВБ, ОЗОН https://fl.ru//projects/5308349/sozdanie-kartochek-vb-ozon.html
+
+Парсинг push уведомлений с телефона/эмулятора с последующей записью в mysql . https://fl.ru//projects/5308293/parsing-push-uvedomleniy-s-telefona-emulyatora-s-posleduyuschey-zapisyu-v-mysql-.html
+
+Дизайн промо слайдов для видео баннера.  https://fl.ru//projects/5308263/dizayn-promo-slaydov-dlya-video-bannera-.html
+
+Схема СОДК https://fl.ru//projects/5308161/shema-sodk.html
+
+Скрипт на Python: получить-показать сообщения https://fl.ru//projects/5308134/skript-na-python-poluchit-pokazat-soobscheniya.html
+
+ Форумчанин для общения на форум финансовой тематики https://fl.ru//projects/5298557/-forumchanin-dlya-obscheniya-na-forum-finansovoy-tematiki.html
+
+Схемотехник https://fl.ru//projects/5308450/shemotehnik.html
+
+Помощник / Разнорабочий https://fl.ru//projects/5307932/pomoschnik---raznorabochiy.html
+
+Поменять цвет на фото https://fl.ru//projects/5308502/pomenyat-tsvet-na-foto.html
+
+Внедрить голосовой помощник в проект на React Native https://fl.ru//projects/5308500/vnedrit-golosovoy-pomoschnik-v-proekt-na-react-native.html
+
+Макет коробки https://fl.ru//projects/5308501/maket-korobki.html
+
+СММ менеджер для мед SPA https://fl.ru//projects/5308490/smm-menedjer-dlya-med-spa.html
+
+Таплинк https://fl.ru//projects/5308499/taplink.html
+
+Разработка сайта на Tilda https://fl.ru//projects/5308496/razrabotka-sayta-na-tilda.html
+
+Написать претензии к ИП https://fl.ru//projects/5308487/napisat-pretenzii-k-ip.html
+
+Помощь в кастомизации и доработке emulatorjs https://fl.ru//projects/5308498/pomosch-v-kastomizatsii-i-dorabotke-emulatorjs.html
+
+Рассылки в инстаграм по экспертам https://fl.ru//projects/5308492/rassyilki-v-instagram-po-ekspertam.html
+
+Сделать редизайн корпоративной презентации https://fl.ru//projects/5308491/sdelat-redizayn-korporativnoy-prezentatsii.html
+
+Дизайн для сайта https://fl.ru//projects/5308494/dizayn-dlya-sayta.html
+
+Нужно устранить спам на сайте https://fl.ru//projects/5308488/nujno-ustranit-spam-na-sayte.html
+
+Доработать вебпроект со стеком: yii2, jquery, vue https://fl.ru//projects/5308485/dorabotat-vebproekt-so-stekom-yii2-jquery-vue.html
+
+Комплексное улучшение визуального стиля SaaS-сервиса для бизнеса https://fl.ru//projects/5308253/kompleksnoe-uluchshenie-vizualnogo-stilya-saas-servisa-dlya-biznesa.html
+
+Обновить вёрстку сайта под AMP https://fl.ru//projects/5308484/obnovit-vrstku-sayta-pod-amp.html
+
+Настройка Google Ads https://fl.ru//projects/5308483/nastroyka-google-ads.html
+
+Проект каркасного дома КР+АР https://fl.ru//projects/5308480/proekt-karkasnogo-doma-krar.html
+
+Создать телеграм канал с ботами и автопросмотрами/автореакциями https://fl.ru//projects/5308478/sozdat-telegram-kanal-s-botami-i-avtoprosmotrami-avtoreaktsiyami.html
+
+SEO специалист Яндекс, Google https://fl.ru//projects/5308468/seo-spetsialist-yandeks-google.html
+
+Настроить аккаунт WABA https://fl.ru//projects/5308477/nastroit-akkaunt-waba.html
+2024-04-11 17:41:52,929 - logger - INFO - None
+2024-04-11 17:41:53,043 - logger - INFO - None
+2024-04-11 17:41:53,161 - logger - INFO - None
+2024-04-11 17:41:53,280 - logger - INFO - None
+2024-04-11 17:41:53,405 - logger - INFO - None
+2024-04-11 17:41:53,511 - logger - INFO - None
+2024-04-11 17:41:53,616 - logger - INFO - None
+2024-04-11 17:41:53,719 - logger - INFO - None
+2024-04-11 17:41:53,811 - logger - INFO - None
+2024-04-11 17:41:53,890 - logger - INFO - None
+2024-04-11 17:41:53,971 - logger - INFO - None
+2024-04-11 17:41:54,056 - logger - INFO - None
+2024-04-11 17:41:54,142 - logger - INFO - None
+2024-04-11 17:41:54,242 - logger - INFO - None
+2024-04-11 17:41:54,348 - logger - INFO - None
+2024-04-11 17:41:54,430 - logger - INFO - None
+2024-04-11 17:41:54,519 - logger - INFO - None
+2024-04-11 17:41:54,614 - logger - INFO - None
+2024-04-11 17:41:54,714 - logger - INFO - None
+2024-04-11 17:41:54,825 - logger - INFO - None
+2024-04-11 17:41:54,935 - logger - INFO - None
+2024-04-11 17:41:55,034 - logger - INFO - None
+2024-04-11 17:41:55,144 - logger - INFO - None
+2024-04-11 17:41:55,261 - logger - INFO - None
+2024-04-11 17:41:55,367 - logger - INFO - None
+2024-04-11 17:41:55,471 - logger - INFO - None
+2024-04-11 17:41:55,576 - logger - INFO - None
+2024-04-11 17:41:55,677 - logger - INFO - None
+2024-04-11 17:41:55,784 - logger - INFO - None
+2024-04-11 17:41:55,884 - logger - INFO - None
+2024-04-11 17:41:56,113 - logger - INFO - Нужно найти ошибки на сайте и доделать frontend https://fl.ru//projects/5308420/nujno-nayti-oshibki-na-sayte-i-dodelat-frontend.html
+
+Оптимизировать скорость вордпресс под Google PageSpeed и в вебмастере https://fl.ru//projects/5308408/optimizirovat-skorost-vordpress-pod-google-pagespeed-i-v-vebmastere.html
+
+Создание карточек ВБ, ОЗОН https://fl.ru//projects/5308349/sozdanie-kartochek-vb-ozon.html
+
+Парсинг push уведомлений с телефона/эмулятора с последующей записью в mysql . https://fl.ru//projects/5308293/parsing-push-uvedomleniy-s-telefona-emulyatora-s-posleduyuschey-zapisyu-v-mysql-.html
+
+Дизайн промо слайдов для видео баннера.  https://fl.ru//projects/5308263/dizayn-promo-slaydov-dlya-video-bannera-.html
+
+Схема СОДК https://fl.ru//projects/5308161/shema-sodk.html
+
+Скрипт на Python: получить-показать сообщения https://fl.ru//projects/5308134/skript-na-python-poluchit-pokazat-soobscheniya.html
+
+ Форумчанин для общения на форум финансовой тематики https://fl.ru//projects/5298557/-forumchanin-dlya-obscheniya-na-forum-finansovoy-tematiki.html
+
+Макет меню в фигме для А3, переделываем в два макета на экраны https://fl.ru//projects/5308504/maket-menyu-v-figme-dlya-a3-peredelyivaem-v-dva-maketa-na-ekranyi.html
+
+Архитектор/конструктор https://fl.ru//projects/5306750/arhitektor-konstruktor.html
+
+ПОЛУЧИ 300 РУБЛЕЙ ВСЕГО ЗА ОДИН КЛИК https://fl.ru//projects/5308506/poluchi-300-rubley-vsego-za-odin-klik.html
+
+Схемотехник https://fl.ru//projects/5308450/shemotehnik.html
+
+Помощник / Разнорабочий https://fl.ru//projects/5307932/pomoschnik---raznorabochiy.html
+
+Внедрить голосовой помощник в проект на React Native https://fl.ru//projects/5308500/vnedrit-golosovoy-pomoschnik-v-proekt-na-react-native.html
+
+Поменять цвет на фото https://fl.ru//projects/5308502/pomenyat-tsvet-na-foto.html
+
+Макет коробки https://fl.ru//projects/5308501/maket-korobki.html
+
+СММ менеджер для мед SPA https://fl.ru//projects/5308490/smm-menedjer-dlya-med-spa.html
+
+Таплинк https://fl.ru//projects/5308499/taplink.html
+
+Разработка сайта на Tilda https://fl.ru//projects/5308496/razrabotka-sayta-na-tilda.html
+
+Написать претензии к ИП https://fl.ru//projects/5308487/napisat-pretenzii-k-ip.html
+
+Помощь в кастомизации и доработке emulatorjs https://fl.ru//projects/5308498/pomosch-v-kastomizatsii-i-dorabotke-emulatorjs.html
+
+Рассылки в инстаграм по экспертам https://fl.ru//projects/5308492/rassyilki-v-instagram-po-ekspertam.html
+
+Инженер-проектировщик (инженер-конструктор) АСУТП https://fl.ru//projects/5306211/injener-proektirovschik-injener-konstruktor-asutp.html
+
+Специалиста для ведения емаил рассылки по теме ecommerce. Выпуск раз в неделю. https://fl.ru//projects/5306274/spetsialista-dlya-vedeniya-email-rassyilki-po-teme-ecommerce-vyipusk-raz-v-nedelyu.html
+
+SEO-копирайтер https://fl.ru//projects/5306212/seo-kopirayter.html
+
+Сделать редизайн корпоративной презентации https://fl.ru//projects/5308491/sdelat-redizayn-korporativnoy-prezentatsii.html
+
+Дизайн для сайта https://fl.ru//projects/5308494/dizayn-dlya-sayta.html
+
+Нужно устранить спам на сайте https://fl.ru//projects/5308488/nujno-ustranit-spam-na-sayte.html
+
+Доработать вебпроект со стеком: yii2, jquery, vue https://fl.ru//projects/5308485/dorabotat-vebproekt-so-stekom-yii2-jquery-vue.html
+
+Комплексное улучшение визуального стиля SaaS-сервиса для бизнеса https://fl.ru//projects/5308253/kompleksnoe-uluchshenie-vizualnogo-stilya-saas-servisa-dlya-biznesa.html
+2024-04-11 17:43:22,999 - logger - INFO - Нужно найти ошибки на сайте и доделать frontend https://fl.ru//projects/5308420/nujno-nayti-oshibki-na-sayte-i-dodelat-frontend.html
+
+Оптимизировать скорость вордпресс под Google PageSpeed и в вебмастере https://fl.ru//projects/5308408/optimizirovat-skorost-vordpress-pod-google-pagespeed-i-v-vebmastere.html
+
+Создание карточек ВБ, ОЗОН https://fl.ru//projects/5308349/sozdanie-kartochek-vb-ozon.html
+
+Парсинг push уведомлений с телефона/эмулятора с последующей записью в mysql . https://fl.ru//projects/5308293/parsing-push-uvedomleniy-s-telefona-emulyatora-s-posleduyuschey-zapisyu-v-mysql-.html
+
+Дизайн промо слайдов для видео баннера.  https://fl.ru//projects/5308263/dizayn-promo-slaydov-dlya-video-bannera-.html
+
+Схема СОДК https://fl.ru//projects/5308161/shema-sodk.html
+
+Скрипт на Python: получить-показать сообщения https://fl.ru//projects/5308134/skript-na-python-poluchit-pokazat-soobscheniya.html
+
+Макет меню в фигме для А3, переделываем в два макета на экраны https://fl.ru//projects/5308504/maket-menyu-v-figme-dlya-a3-peredelyivaem-v-dva-maketa-na-ekranyi.html
+
+Архитектор/конструктор https://fl.ru//projects/5306750/arhitektor-konstruktor.html
+
+ПОЛУЧИ 300 РУБЛЕЙ ВСЕГО ЗА ОДИН КЛИК https://fl.ru//projects/5308506/poluchi-300-rubley-vsego-za-odin-klik.html
+
+Схемотехник https://fl.ru//projects/5308450/shemotehnik.html
+
+Помощник / Разнорабочий https://fl.ru//projects/5307932/pomoschnik---raznorabochiy.html
+
+Внедрить голосовой помощник в проект на React Native https://fl.ru//projects/5308500/vnedrit-golosovoy-pomoschnik-v-proekt-na-react-native.html
+
+Макет коробки https://fl.ru//projects/5308501/maket-korobki.html
+
+Поменять цвет на фото https://fl.ru//projects/5308502/pomenyat-tsvet-na-foto.html
+
+СММ менеджер для мед SPA https://fl.ru//projects/5308490/smm-menedjer-dlya-med-spa.html
+
+Таплинк https://fl.ru//projects/5308499/taplink.html
+
+Разработка сайта на Tilda https://fl.ru//projects/5308496/razrabotka-sayta-na-tilda.html
+
+Написать претензии к ИП https://fl.ru//projects/5308487/napisat-pretenzii-k-ip.html
+
+Помощь в кастомизации и доработке emulatorjs https://fl.ru//projects/5308498/pomosch-v-kastomizatsii-i-dorabotke-emulatorjs.html
+
+Рассылки в инстаграм по экспертам https://fl.ru//projects/5308492/rassyilki-v-instagram-po-ekspertam.html
+
+Инженер-проектировщик (инженер-конструктор) АСУТП https://fl.ru//projects/5306211/injener-proektirovschik-injener-konstruktor-asutp.html
+
+Специалиста для ведения емаил рассылки по теме ecommerce. Выпуск раз в неделю. https://fl.ru//projects/5306274/spetsialista-dlya-vedeniya-email-rassyilki-po-teme-ecommerce-vyipusk-raz-v-nedelyu.html
+
+SEO-копирайтер https://fl.ru//projects/5306212/seo-kopirayter.html
+
+Сделать редизайн корпоративной презентации https://fl.ru//projects/5308491/sdelat-redizayn-korporativnoy-prezentatsii.html
+
+Дизайн для сайта https://fl.ru//projects/5308494/dizayn-dlya-sayta.html
+
+Нужно устранить спам на сайте https://fl.ru//projects/5308488/nujno-ustranit-spam-na-sayte.html
+
+Доработать вебпроект со стеком: yii2, jquery, vue https://fl.ru//projects/5308485/dorabotat-vebproekt-so-stekom-yii2-jquery-vue.html
+
+Комплексное улучшение визуального стиля SaaS-сервиса для бизнеса https://fl.ru//projects/5308253/kompleksnoe-uluchshenie-vizualnogo-stilya-saas-servisa-dlya-biznesa.html
+
+Обновить вёрстку сайта под AMP https://fl.ru//projects/5308484/obnovit-vrstku-sayta-pod-amp.html
+2024-04-11 17:44:42,253 - logger - INFO - Нужно найти ошибки на сайте и доделать frontend https://fl.ru//projects/5308420/nujno-nayti-oshibki-na-sayte-i-dodelat-frontend.html
+
+Оптимизировать скорость вордпресс под Google PageSpeed и в вебмастере https://fl.ru//projects/5308408/optimizirovat-skorost-vordpress-pod-google-pagespeed-i-v-vebmastere.html
+
+Создание карточек ВБ, ОЗОН https://fl.ru//projects/5308349/sozdanie-kartochek-vb-ozon.html
+
+Парсинг push уведомлений с телефона/эмулятора с последующей записью в mysql . https://fl.ru//projects/5308293/parsing-push-uvedomleniy-s-telefona-emulyatora-s-posleduyuschey-zapisyu-v-mysql-.html
+
+Дизайн промо слайдов для видео баннера.  https://fl.ru//projects/5308263/dizayn-promo-slaydov-dlya-video-bannera-.html
+
+Схема СОДК https://fl.ru//projects/5308161/shema-sodk.html
+
+Скрипт на Python: получить-показать сообщения https://fl.ru//projects/5308134/skript-na-python-poluchit-pokazat-soobscheniya.html
+
+Ищу бухгалтера с опытом https://fl.ru//projects/5308512/ischu-buhgaltera-s-opyitom.html
+
+Макет меню в фигме для А3, переделываем в два макета на экраны https://fl.ru//projects/5308504/maket-menyu-v-figme-dlya-a3-peredelyivaem-v-dva-maketa-na-ekranyi.html
+
+Архитектор/конструктор https://fl.ru//projects/5306750/arhitektor-konstruktor.html
+
+ПОЛУЧИ 300 РУБЛЕЙ ВСЕГО ЗА ОДИН КЛИК https://fl.ru//projects/5308506/poluchi-300-rubley-vsego-za-odin-klik.html
+
+Схемотехник https://fl.ru//projects/5308450/shemotehnik.html
+
+Помощник / Разнорабочий https://fl.ru//projects/5307932/pomoschnik---raznorabochiy.html
+
+Внедрить голосовой помощник в проект на React Native https://fl.ru//projects/5308500/vnedrit-golosovoy-pomoschnik-v-proekt-na-react-native.html
+
+Макет коробки https://fl.ru//projects/5308501/maket-korobki.html
+
+Поменять цвет на фото https://fl.ru//projects/5308502/pomenyat-tsvet-na-foto.html
+
+СММ менеджер для мед SPA https://fl.ru//projects/5308490/smm-menedjer-dlya-med-spa.html
+
+Таплинк https://fl.ru//projects/5308499/taplink.html
+
+Разработка сайта на Tilda https://fl.ru//projects/5308496/razrabotka-sayta-na-tilda.html
+
+Написать претензии к ИП https://fl.ru//projects/5308487/napisat-pretenzii-k-ip.html
+
+Помощь в кастомизации и доработке emulatorjs https://fl.ru//projects/5308498/pomosch-v-kastomizatsii-i-dorabotke-emulatorjs.html
+
+Рассылки в инстаграм по экспертам https://fl.ru//projects/5308492/rassyilki-v-instagram-po-ekspertam.html
+
+Инженер-проектировщик (инженер-конструктор) АСУТП https://fl.ru//projects/5306211/injener-proektirovschik-injener-konstruktor-asutp.html
+
+Специалиста для ведения емаил рассылки по теме ecommerce. Выпуск раз в неделю. https://fl.ru//projects/5306274/spetsialista-dlya-vedeniya-email-rassyilki-po-teme-ecommerce-vyipusk-raz-v-nedelyu.html
+
+SEO-копирайтер https://fl.ru//projects/5306212/seo-kopirayter.html
+
+Сделать редизайн корпоративной презентации https://fl.ru//projects/5308491/sdelat-redizayn-korporativnoy-prezentatsii.html
+
+Дизайн для сайта https://fl.ru//projects/5308494/dizayn-dlya-sayta.html
+
+Нужно устранить спам на сайте https://fl.ru//projects/5308488/nujno-ustranit-spam-na-sayte.html
+
+Доработать вебпроект со стеком: yii2, jquery, vue https://fl.ru//projects/5308485/dorabotat-vebproekt-so-stekom-yii2-jquery-vue.html
+
+Комплексное улучшение визуального стиля SaaS-сервиса для бизнеса https://fl.ru//projects/5308253/kompleksnoe-uluchshenie-vizualnogo-stilya-saas-servisa-dlya-biznesa.html
+2024-04-11 17:47:28,397 - logger - INFO - Нужно найти ошибки на сайте и доделать frontend https://fl.ru//projects/5308420/nujno-nayti-oshibki-na-sayte-i-dodelat-frontend.html
+
+Оптимизировать скорость вордпресс под Google PageSpeed и в вебмастере https://fl.ru//projects/5308408/optimizirovat-skorost-vordpress-pod-google-pagespeed-i-v-vebmastere.html
+
+Создание карточек ВБ, ОЗОН https://fl.ru//projects/5308349/sozdanie-kartochek-vb-ozon.html
+
+Парсинг push уведомлений с телефона/эмулятора с последующей записью в mysql . https://fl.ru//projects/5308293/parsing-push-uvedomleniy-s-telefona-emulyatora-s-posleduyuschey-zapisyu-v-mysql-.html
+
+Дизайн промо слайдов для видео баннера.  https://fl.ru//projects/5308263/dizayn-promo-slaydov-dlya-video-bannera-.html
+
+Схема СОДК https://fl.ru//projects/5308161/shema-sodk.html
+
+Скрипт на Python: получить-показать сообщения https://fl.ru//projects/5308134/skript-na-python-poluchit-pokazat-soobscheniya.html
+
+Content Maker / SMM https://fl.ru//projects/5308515/content-maker---smm.html
+
+Ищу бухгалтера с опытом https://fl.ru//projects/5308512/ischu-buhgaltera-s-opyitom.html
+
+Макет меню в фигме для А3, переделываем в два макета на экраны https://fl.ru//projects/5308504/maket-menyu-v-figme-dlya-a3-peredelyivaem-v-dva-maketa-na-ekranyi.html
+
+Архитектор/конструктор https://fl.ru//projects/5306750/arhitektor-konstruktor.html
+
+ПОЛУЧИ 300 РУБЛЕЙ ВСЕГО ЗА ОДИН КЛИК https://fl.ru//projects/5308506/poluchi-300-rubley-vsego-za-odin-klik.html
+
+Схемотехник https://fl.ru//projects/5308450/shemotehnik.html
+
+Помощник / Разнорабочий https://fl.ru//projects/5307932/pomoschnik---raznorabochiy.html
+
+Внедрить голосовой помощник в проект на React Native https://fl.ru//projects/5308500/vnedrit-golosovoy-pomoschnik-v-proekt-na-react-native.html
+
+Макет коробки https://fl.ru//projects/5308501/maket-korobki.html
+
+Поменять цвет на фото https://fl.ru//projects/5308502/pomenyat-tsvet-na-foto.html
+
+СММ менеджер для мед SPA https://fl.ru//projects/5308490/smm-menedjer-dlya-med-spa.html
+
+Таплинк https://fl.ru//projects/5308499/taplink.html
+
+Разработка сайта на Tilda https://fl.ru//projects/5308496/razrabotka-sayta-na-tilda.html
+
+Написать претензии к ИП https://fl.ru//projects/5308487/napisat-pretenzii-k-ip.html
+
+Помощь в кастомизации и доработке emulatorjs https://fl.ru//projects/5308498/pomosch-v-kastomizatsii-i-dorabotke-emulatorjs.html
+
+Рассылки в инстаграм по экспертам https://fl.ru//projects/5308492/rassyilki-v-instagram-po-ekspertam.html
+
+Инженер-проектировщик (инженер-конструктор) АСУТП https://fl.ru//projects/5306211/injener-proektirovschik-injener-konstruktor-asutp.html
+
+Специалиста для ведения емаил рассылки по теме ecommerce. Выпуск раз в неделю. https://fl.ru//projects/5306274/spetsialista-dlya-vedeniya-email-rassyilki-po-teme-ecommerce-vyipusk-raz-v-nedelyu.html
+
+SEO-копирайтер https://fl.ru//projects/5306212/seo-kopirayter.html
+
+Сделать редизайн корпоративной презентации https://fl.ru//projects/5308491/sdelat-redizayn-korporativnoy-prezentatsii.html
+
+Дизайн для сайта https://fl.ru//projects/5308494/dizayn-dlya-sayta.html
+
+Нужно устранить спам на сайте https://fl.ru//projects/5308488/nujno-ustranit-spam-na-sayte.html
+
+Доработать вебпроект со стеком: yii2, jquery, vue https://fl.ru//projects/5308485/dorabotat-vebproekt-so-stekom-yii2-jquery-vue.html
+2024-04-11 17:48:33,915 - logger - INFO - Нужно найти ошибки на сайте и доделать frontend https://fl.ru//projects/5308420/nujno-nayti-oshibki-na-sayte-i-dodelat-frontend.html
+
+Оптимизировать скорость вордпресс под Google PageSpeed и в вебмастере https://fl.ru//projects/5308408/optimizirovat-skorost-vordpress-pod-google-pagespeed-i-v-vebmastere.html
+
+Создание карточек ВБ, ОЗОН https://fl.ru//projects/5308349/sozdanie-kartochek-vb-ozon.html
+
+Парсинг push уведомлений с телефона/эмулятора с последующей записью в mysql . https://fl.ru//projects/5308293/parsing-push-uvedomleniy-s-telefona-emulyatora-s-posleduyuschey-zapisyu-v-mysql-.html
+
+Дизайн промо слайдов для видео баннера.  https://fl.ru//projects/5308263/dizayn-promo-slaydov-dlya-video-bannera-.html
+
+Схема СОДК https://fl.ru//projects/5308161/shema-sodk.html
+
+Скрипт на Python: получить-показать сообщения https://fl.ru//projects/5308134/skript-na-python-poluchit-pokazat-soobscheniya.html
+
+Content Maker / SMM https://fl.ru//projects/5308515/content-maker---smm.html
+
+Ищу бухгалтера с опытом https://fl.ru//projects/5308512/ischu-buhgaltera-s-opyitom.html
+
+Макет меню в фигме для А3, переделываем в два макета на экраны https://fl.ru//projects/5308504/maket-menyu-v-figme-dlya-a3-peredelyivaem-v-dva-maketa-na-ekranyi.html
+
+Архитектор/конструктор https://fl.ru//projects/5306750/arhitektor-konstruktor.html
+
+ПОЛУЧИ 300 РУБЛЕЙ ВСЕГО ЗА ОДИН КЛИК https://fl.ru//projects/5308506/poluchi-300-rubley-vsego-za-odin-klik.html
+
+Схемотехник https://fl.ru//projects/5308450/shemotehnik.html
+
+Помощник / Разнорабочий https://fl.ru//projects/5307932/pomoschnik---raznorabochiy.html
+
+Внедрить голосовой помощник в проект на React Native https://fl.ru//projects/5308500/vnedrit-golosovoy-pomoschnik-v-proekt-na-react-native.html
+
+Макет коробки https://fl.ru//projects/5308501/maket-korobki.html
+
+Поменять цвет на фото https://fl.ru//projects/5308502/pomenyat-tsvet-na-foto.html
+
+СММ менеджер для мед SPA https://fl.ru//projects/5308490/smm-menedjer-dlya-med-spa.html
+
+Таплинк https://fl.ru//projects/5308499/taplink.html
+
+Разработка сайта на Tilda https://fl.ru//projects/5308496/razrabotka-sayta-na-tilda.html
+
+Написать претензии к ИП https://fl.ru//projects/5308487/napisat-pretenzii-k-ip.html
+
+Помощь в кастомизации и доработке emulatorjs https://fl.ru//projects/5308498/pomosch-v-kastomizatsii-i-dorabotke-emulatorjs.html
+
+Рассылки в инстаграм по экспертам https://fl.ru//projects/5308492/rassyilki-v-instagram-po-ekspertam.html
+
+Инженер-проектировщик (инженер-конструктор) АСУТП https://fl.ru//projects/5306211/injener-proektirovschik-injener-konstruktor-asutp.html
+
+Специалиста для ведения емаил рассылки по теме ecommerce. Выпуск раз в неделю. https://fl.ru//projects/5306274/spetsialista-dlya-vedeniya-email-rassyilki-po-teme-ecommerce-vyipusk-raz-v-nedelyu.html
+
+SEO-копирайтер https://fl.ru//projects/5306212/seo-kopirayter.html
+
+Сделать редизайн корпоративной презентации https://fl.ru//projects/5308491/sdelat-redizayn-korporativnoy-prezentatsii.html
+
+Дизайн для сайта https://fl.ru//projects/5308494/dizayn-dlya-sayta.html
+
+Нужно устранить спам на сайте https://fl.ru//projects/5308488/nujno-ustranit-spam-na-sayte.html
+
+Доработать вебпроект со стеком: yii2, jquery, vue https://fl.ru//projects/5308485/dorabotat-vebproekt-so-stekom-yii2-jquery-vue.html
+2024-04-11 17:51:00,178 - logger - INFO - Нужно найти ошибки на сайте и доделать frontend https://fl.ru//projects/5308420/nujno-nayti-oshibki-na-sayte-i-dodelat-frontend.html
+
+Оптимизировать скорость вордпресс под Google PageSpeed и в вебмастере https://fl.ru//projects/5308408/optimizirovat-skorost-vordpress-pod-google-pagespeed-i-v-vebmastere.html
+
+Создание карточек ВБ, ОЗОН https://fl.ru//projects/5308349/sozdanie-kartochek-vb-ozon.html
+
+Парсинг push уведомлений с телефона/эмулятора с последующей записью в mysql . https://fl.ru//projects/5308293/parsing-push-uvedomleniy-s-telefona-emulyatora-s-posleduyuschey-zapisyu-v-mysql-.html
+
+Дизайн промо слайдов для видео баннера.  https://fl.ru//projects/5308263/dizayn-promo-slaydov-dlya-video-bannera-.html
+
+Схема СОДК https://fl.ru//projects/5308161/shema-sodk.html
+
+Скрипт на Python: получить-показать сообщения https://fl.ru//projects/5308134/skript-na-python-poluchit-pokazat-soobscheniya.html
+
+Content Maker / SMM https://fl.ru//projects/5308515/content-maker---smm.html
+
+Ищу бухгалтера с опытом https://fl.ru//projects/5308512/ischu-buhgaltera-s-opyitom.html
+
+Макет меню в фигме для А3, переделываем в два макета на экраны https://fl.ru//projects/5308504/maket-menyu-v-figme-dlya-a3-peredelyivaem-v-dva-maketa-na-ekranyi.html
+
+Архитектор/конструктор https://fl.ru//projects/5306750/arhitektor-konstruktor.html
+
+ПОЛУЧИ 300 РУБЛЕЙ ВСЕГО ЗА ОДИН КЛИК https://fl.ru//projects/5308506/poluchi-300-rubley-vsego-za-odin-klik.html
+
+Схемотехник https://fl.ru//projects/5308450/shemotehnik.html
+
+Помощник / Разнорабочий https://fl.ru//projects/5307932/pomoschnik---raznorabochiy.html
+
+Внедрить голосовой помощник в проект на React Native https://fl.ru//projects/5308500/vnedrit-golosovoy-pomoschnik-v-proekt-na-react-native.html
+
+Макет коробки https://fl.ru//projects/5308501/maket-korobki.html
+
+Поменять цвет на фото https://fl.ru//projects/5308502/pomenyat-tsvet-na-foto.html
+
+СММ менеджер для мед SPA https://fl.ru//projects/5308490/smm-menedjer-dlya-med-spa.html
+
+Таплинк https://fl.ru//projects/5308499/taplink.html
+
+Разработка сайта на Tilda https://fl.ru//projects/5308496/razrabotka-sayta-na-tilda.html
+
+Написать претензии к ИП https://fl.ru//projects/5308487/napisat-pretenzii-k-ip.html
+
+Помощь в кастомизации и доработке emulatorjs https://fl.ru//projects/5308498/pomosch-v-kastomizatsii-i-dorabotke-emulatorjs.html
+
+Рассылки в инстаграм по экспертам https://fl.ru//projects/5308492/rassyilki-v-instagram-po-ekspertam.html
+
+Инженер-проектировщик (инженер-конструктор) АСУТП https://fl.ru//projects/5306211/injener-proektirovschik-injener-konstruktor-asutp.html
+
+Специалиста для ведения емаил рассылки по теме ecommerce. Выпуск раз в неделю. https://fl.ru//projects/5306274/spetsialista-dlya-vedeniya-email-rassyilki-po-teme-ecommerce-vyipusk-raz-v-nedelyu.html
+
+SEO-копирайтер https://fl.ru//projects/5306212/seo-kopirayter.html
+
+Сделать редизайн корпоративной презентации https://fl.ru//projects/5308491/sdelat-redizayn-korporativnoy-prezentatsii.html
+
+Дизайн для сайта https://fl.ru//projects/5308494/dizayn-dlya-sayta.html
+
+Нужно устранить спам на сайте https://fl.ru//projects/5308488/nujno-ustranit-spam-na-sayte.html
+
+Доработать вебпроект со стеком: yii2, jquery, vue https://fl.ru//projects/5308485/dorabotat-vebproekt-so-stekom-yii2-jquery-vue.html
+2024-04-11 17:52:18,256 - logger - INFO - Нужно найти ошибки на сайте и доделать frontend https://fl.ru//projects/5308420/nujno-nayti-oshibki-na-sayte-i-dodelat-frontend.html
+
+Оптимизировать скорость вордпресс под Google PageSpeed и в вебмастере https://fl.ru//projects/5308408/optimizirovat-skorost-vordpress-pod-google-pagespeed-i-v-vebmastere.html
+
+Создание карточек ВБ, ОЗОН https://fl.ru//projects/5308349/sozdanie-kartochek-vb-ozon.html
+
+Парсинг push уведомлений с телефона/эмулятора с последующей записью в mysql . https://fl.ru//projects/5308293/parsing-push-uvedomleniy-s-telefona-emulyatora-s-posleduyuschey-zapisyu-v-mysql-.html
+
+Дизайн промо слайдов для видео баннера.  https://fl.ru//projects/5308263/dizayn-promo-slaydov-dlya-video-bannera-.html
+
+Схема СОДК https://fl.ru//projects/5308161/shema-sodk.html
+
+Скрипт на Python: получить-показать сообщения https://fl.ru//projects/5308134/skript-na-python-poluchit-pokazat-soobscheniya.html
+
+Content Maker / SMM https://fl.ru//projects/5308515/content-maker---smm.html
+
+Ищу бухгалтера с опытом https://fl.ru//projects/5308512/ischu-buhgaltera-s-opyitom.html
+
+Макет меню в фигме для А3, переделываем в два макета на экраны https://fl.ru//projects/5308504/maket-menyu-v-figme-dlya-a3-peredelyivaem-v-dva-maketa-na-ekranyi.html
+
+Архитектор/конструктор https://fl.ru//projects/5306750/arhitektor-konstruktor.html
+
+ПОЛУЧИ 300 РУБЛЕЙ ВСЕГО ЗА ОДИН КЛИК https://fl.ru//projects/5308506/poluchi-300-rubley-vsego-za-odin-klik.html
+
+Схемотехник https://fl.ru//projects/5308450/shemotehnik.html
+
+Помощник / Разнорабочий https://fl.ru//projects/5307932/pomoschnik---raznorabochiy.html
+
+Внедрить голосовой помощник в проект на React Native https://fl.ru//projects/5308500/vnedrit-golosovoy-pomoschnik-v-proekt-na-react-native.html
+
+Макет коробки https://fl.ru//projects/5308501/maket-korobki.html
+
+Поменять цвет на фото https://fl.ru//projects/5308502/pomenyat-tsvet-na-foto.html
+
+СММ менеджер для мед SPA https://fl.ru//projects/5308490/smm-menedjer-dlya-med-spa.html
+
+Таплинк https://fl.ru//projects/5308499/taplink.html
+
+Разработка сайта на Tilda https://fl.ru//projects/5308496/razrabotka-sayta-na-tilda.html
+
+Написать претензии к ИП https://fl.ru//projects/5308487/napisat-pretenzii-k-ip.html
+
+Помощь в кастомизации и доработке emulatorjs https://fl.ru//projects/5308498/pomosch-v-kastomizatsii-i-dorabotke-emulatorjs.html
+
+Рассылки в инстаграм по экспертам https://fl.ru//projects/5308492/rassyilki-v-instagram-po-ekspertam.html
+
+Инженер-проектировщик (инженер-конструктор) АСУТП https://fl.ru//projects/5306211/injener-proektirovschik-injener-konstruktor-asutp.html
+
+Специалиста для ведения емаил рассылки по теме ecommerce. Выпуск раз в неделю. https://fl.ru//projects/5306274/spetsialista-dlya-vedeniya-email-rassyilki-po-teme-ecommerce-vyipusk-raz-v-nedelyu.html
+
+SEO-копирайтер https://fl.ru//projects/5306212/seo-kopirayter.html
+
+Сделать редизайн корпоративной презентации https://fl.ru//projects/5308491/sdelat-redizayn-korporativnoy-prezentatsii.html
+
+Дизайн для сайта https://fl.ru//projects/5308494/dizayn-dlya-sayta.html
+
+Нужно устранить спам на сайте https://fl.ru//projects/5308488/nujno-ustranit-spam-na-sayte.html
+
+Доработать вебпроект со стеком: yii2, jquery, vue https://fl.ru//projects/5308485/dorabotat-vebproekt-so-stekom-yii2-jquery-vue.html
+2024-04-11 17:53:54,170 - logger - INFO - Нужно найти ошибки на сайте и доделать frontend https://fl.ru//projects/5308420/nujno-nayti-oshibki-na-sayte-i-dodelat-frontend.html
+
+Оптимизировать скорость вордпресс под Google PageSpeed и в вебмастере https://fl.ru//projects/5308408/optimizirovat-skorost-vordpress-pod-google-pagespeed-i-v-vebmastere.html
+
+Создание карточек ВБ, ОЗОН https://fl.ru//projects/5308349/sozdanie-kartochek-vb-ozon.html
+
+Парсинг push уведомлений с телефона/эмулятора с последующей записью в mysql . https://fl.ru//projects/5308293/parsing-push-uvedomleniy-s-telefona-emulyatora-s-posleduyuschey-zapisyu-v-mysql-.html
+
+Дизайн промо слайдов для видео баннера.  https://fl.ru//projects/5308263/dizayn-promo-slaydov-dlya-video-bannera-.html
+
+Схема СОДК https://fl.ru//projects/5308161/shema-sodk.html
+
+Скрипт на Python: получить-показать сообщения https://fl.ru//projects/5308134/skript-na-python-poluchit-pokazat-soobscheniya.html
+
+Content Maker / SMM https://fl.ru//projects/5308515/content-maker---smm.html
+
+Ищу бухгалтера с опытом https://fl.ru//projects/5308512/ischu-buhgaltera-s-opyitom.html
+
+Макет меню в фигме для А3, переделываем в два макета на экраны https://fl.ru//projects/5308504/maket-menyu-v-figme-dlya-a3-peredelyivaem-v-dva-maketa-na-ekranyi.html
+
+Архитектор/конструктор https://fl.ru//projects/5306750/arhitektor-konstruktor.html
+
+ПОЛУЧИ 300 РУБЛЕЙ ВСЕГО ЗА ОДИН КЛИК https://fl.ru//projects/5308506/poluchi-300-rubley-vsego-za-odin-klik.html
+
+Схемотехник https://fl.ru//projects/5308450/shemotehnik.html
+
+Помощник / Разнорабочий https://fl.ru//projects/5307932/pomoschnik---raznorabochiy.html
+
+Внедрить голосовой помощник в проект на React Native https://fl.ru//projects/5308500/vnedrit-golosovoy-pomoschnik-v-proekt-na-react-native.html
+
+Макет коробки https://fl.ru//projects/5308501/maket-korobki.html
+
+Поменять цвет на фото https://fl.ru//projects/5308502/pomenyat-tsvet-na-foto.html
+
+СММ менеджер для мед SPA https://fl.ru//projects/5308490/smm-menedjer-dlya-med-spa.html
+
+Таплинк https://fl.ru//projects/5308499/taplink.html
+
+Разработка сайта на Tilda https://fl.ru//projects/5308496/razrabotka-sayta-na-tilda.html
+
+Написать претензии к ИП https://fl.ru//projects/5308487/napisat-pretenzii-k-ip.html
+
+Помощь в кастомизации и доработке emulatorjs https://fl.ru//projects/5308498/pomosch-v-kastomizatsii-i-dorabotke-emulatorjs.html
+
+Рассылки в инстаграм по экспертам https://fl.ru//projects/5308492/rassyilki-v-instagram-po-ekspertam.html
+
+Инженер-проектировщик (инженер-конструктор) АСУТП https://fl.ru//projects/5306211/injener-proektirovschik-injener-konstruktor-asutp.html
+
+Специалиста для ведения емаил рассылки по теме ecommerce. Выпуск раз в неделю. https://fl.ru//projects/5306274/spetsialista-dlya-vedeniya-email-rassyilki-po-teme-ecommerce-vyipusk-raz-v-nedelyu.html
+
+SEO-копирайтер https://fl.ru//projects/5306212/seo-kopirayter.html
+
+Сделать редизайн корпоративной презентации https://fl.ru//projects/5308491/sdelat-redizayn-korporativnoy-prezentatsii.html
+
+Дизайн для сайта https://fl.ru//projects/5308494/dizayn-dlya-sayta.html
+
+Нужно устранить спам на сайте https://fl.ru//projects/5308488/nujno-ustranit-spam-na-sayte.html
+
+Доработать вебпроект со стеком: yii2, jquery, vue https://fl.ru//projects/5308485/dorabotat-vebproekt-so-stekom-yii2-jquery-vue.html
+2024-04-11 17:55:19,574 - logger - INFO - Нужно найти ошибки на сайте и доделать frontend https://fl.ru//projects/5308420/nujno-nayti-oshibki-na-sayte-i-dodelat-frontend.html
+
+Оптимизировать скорость вордпресс под Google PageSpeed и в вебмастере https://fl.ru//projects/5308408/optimizirovat-skorost-vordpress-pod-google-pagespeed-i-v-vebmastere.html
+
+Создание карточек ВБ, ОЗОН https://fl.ru//projects/5308349/sozdanie-kartochek-vb-ozon.html
+
+Парсинг push уведомлений с телефона/эмулятора с последующей записью в mysql . https://fl.ru//projects/5308293/parsing-push-uvedomleniy-s-telefona-emulyatora-s-posleduyuschey-zapisyu-v-mysql-.html
+
+Дизайн промо слайдов для видео баннера.  https://fl.ru//projects/5308263/dizayn-promo-slaydov-dlya-video-bannera-.html
+
+Схема СОДК https://fl.ru//projects/5308161/shema-sodk.html
+
+Скрипт на Python: получить-показать сообщения https://fl.ru//projects/5308134/skript-na-python-poluchit-pokazat-soobscheniya.html
+
+Визуализация ландшафт https://fl.ru//projects/5308513/vizualizatsiya-landshaft.html
+
+Посты для ТГ канала посвященному рекламе и продвижению. 1шт в неделю https://fl.ru//projects/5308519/postyi-dlya-tg-kanala-posvyaschennomu-reklame-i-prodvijeniyu-1sht-v-nedelyu.html
+
+Реферат и презентация по нему на тему "Протореклама в античности" https://fl.ru//projects/5308518/referat-i-prezentatsiya-po-nemu-na-temu-protoreklama-v-antichnosti.html
+
+Написание SEO текста https://fl.ru//projects/5308509/napisanie-seo-teksta.html
+
+Рассчитать забивную сваю  https://fl.ru//projects/5308514/rasschitat-zabivnuyu-svayu-.html
+
+Ищу бухгалтера с опытом https://fl.ru//projects/5308512/ischu-buhgaltera-s-opyitom.html
+
+Создать бот в тг https://fl.ru//projects/5308520/sozdat-bot-v-tg.html
+
+Запустить и провести рекламную кампанию в Telegram Ads  https://fl.ru//projects/5308507/zapustit-i-provesti-reklamnuyu-kampaniyu-v-telegram-ads-.html
+
+Раздел ОВВК для коттеджа https://fl.ru//projects/5308505/razdel-ovvk-dlya-kottedja.html
+
+Content Maker / SMM https://fl.ru//projects/5308515/content-maker---smm.html
+
+Макет меню в фигме для А3, переделываем в два макета на экраны https://fl.ru//projects/5308504/maket-menyu-v-figme-dlya-a3-peredelyivaem-v-dva-maketa-na-ekranyi.html
+
+Архитектор/конструктор https://fl.ru//projects/5306750/arhitektor-konstruktor.html
+
+Схемотехник https://fl.ru//projects/5308450/shemotehnik.html
+
+Помощник / Разнорабочий https://fl.ru//projects/5307932/pomoschnik---raznorabochiy.html
+
+Внедрить голосовой помощник в проект на React Native https://fl.ru//projects/5308500/vnedrit-golosovoy-pomoschnik-v-proekt-na-react-native.html
+
+Макет коробки https://fl.ru//projects/5308501/maket-korobki.html
+
+Поменять цвет на фото https://fl.ru//projects/5308502/pomenyat-tsvet-na-foto.html
+
+СММ менеджер для мед SPA https://fl.ru//projects/5308490/smm-menedjer-dlya-med-spa.html
+
+Таплинк https://fl.ru//projects/5308499/taplink.html
+
+Разработка сайта на Tilda https://fl.ru//projects/5308496/razrabotka-sayta-na-tilda.html
+
+Написать претензии к ИП https://fl.ru//projects/5308487/napisat-pretenzii-k-ip.html
+
+Помощь в кастомизации и доработке emulatorjs https://fl.ru//projects/5308498/pomosch-v-kastomizatsii-i-dorabotke-emulatorjs.html
+
+Рассылки в инстаграм по экспертам https://fl.ru//projects/5308492/rassyilki-v-instagram-po-ekspertam.html
+2024-04-11 17:59:06,074 - logger - INFO - Нужно найти ошибки на сайте и доделать frontend https://fl.ru//projects/5308420/nujno-nayti-oshibki-na-sayte-i-dodelat-frontend.html
+
+Оптимизировать скорость вордпресс под Google PageSpeed и в вебмастере https://fl.ru//projects/5308408/optimizirovat-skorost-vordpress-pod-google-pagespeed-i-v-vebmastere.html
+
+Создание карточек ВБ, ОЗОН https://fl.ru//projects/5308349/sozdanie-kartochek-vb-ozon.html
+
+Парсинг push уведомлений с телефона/эмулятора с последующей записью в mysql . https://fl.ru//projects/5308293/parsing-push-uvedomleniy-s-telefona-emulyatora-s-posleduyuschey-zapisyu-v-mysql-.html
+
+Дизайн промо слайдов для видео баннера.  https://fl.ru//projects/5308263/dizayn-promo-slaydov-dlya-video-bannera-.html
+
+Схема СОДК https://fl.ru//projects/5308161/shema-sodk.html
+
+Скрипт на Python: получить-показать сообщения https://fl.ru//projects/5308134/skript-na-python-poluchit-pokazat-soobscheniya.html
+
+Исполнитель определён https://fl.ru//projects/5308134/skript-na-python-poluchit-pokazat-soobscheniya.html
+
+Оформить гайд на тему здоровья (дофамин), чтобы удобно и приятно было читать https://fl.ru//projects/5308517/oformit-gayd-na-temu-zdorovya-dofamin-chtobyi-udobno-i-priyatno-byilo-chitat.html
+
+Визуализация ландшафт https://fl.ru//projects/5308513/vizualizatsiya-landshaft.html
+
+Посты для ТГ канала посвященному рекламе и продвижению. 1шт в неделю https://fl.ru//projects/5308519/postyi-dlya-tg-kanala-posvyaschennomu-reklame-i-prodvijeniyu-1sht-v-nedelyu.html
+
+Реферат и презентация по нему на тему "Протореклама в античности" https://fl.ru//projects/5308518/referat-i-prezentatsiya-po-nemu-na-temu-protoreklama-v-antichnosti.html
+
+Написание SEO текста https://fl.ru//projects/5308509/napisanie-seo-teksta.html
+
+Рассчитать забивную сваю  https://fl.ru//projects/5308514/rasschitat-zabivnuyu-svayu-.html
+
+Создать бот в тг https://fl.ru//projects/5308520/sozdat-bot-v-tg.html
+
+Запустить и провести рекламную кампанию в Telegram Ads  https://fl.ru//projects/5308507/zapustit-i-provesti-reklamnuyu-kampaniyu-v-telegram-ads-.html
+
+Раздел ОВВК для коттеджа https://fl.ru//projects/5308505/razdel-ovvk-dlya-kottedja.html
+
+Content Maker / SMM https://fl.ru//projects/5308515/content-maker---smm.html
+
+Макет меню в фигме для А3, переделываем в два макета на экраны https://fl.ru//projects/5308504/maket-menyu-v-figme-dlya-a3-peredelyivaem-v-dva-maketa-na-ekranyi.html
+
+Архитектор/конструктор https://fl.ru//projects/5306750/arhitektor-konstruktor.html
+
+Схемотехник https://fl.ru//projects/5308450/shemotehnik.html
+
+Помощник / Разнорабочий https://fl.ru//projects/5307932/pomoschnik---raznorabochiy.html
+
+Внедрить голосовой помощник в проект на React Native https://fl.ru//projects/5308500/vnedrit-golosovoy-pomoschnik-v-proekt-na-react-native.html
+
+Макет коробки https://fl.ru//projects/5308501/maket-korobki.html
+
+Поменять цвет на фото https://fl.ru//projects/5308502/pomenyat-tsvet-na-foto.html
+
+СММ менеджер для мед SPA https://fl.ru//projects/5308490/smm-menedjer-dlya-med-spa.html
+
+Таплинк https://fl.ru//projects/5308499/taplink.html
+
+Разработка сайта на Tilda https://fl.ru//projects/5308496/razrabotka-sayta-na-tilda.html
+
+Написать претензии к ИП https://fl.ru//projects/5308487/napisat-pretenzii-k-ip.html
+
+Помощь в кастомизации и доработке emulatorjs https://fl.ru//projects/5308498/pomosch-v-kastomizatsii-i-dorabotke-emulatorjs.html
+
+Рассылки в инстаграм по экспертам https://fl.ru//projects/5308492/rassyilki-v-instagram-po-ekspertam.html
+2024-04-11 18:00:14,947 - logger - INFO - Нужно найти ошибки на сайте и доделать frontend https://fl.ru//projects/5308420/nujno-nayti-oshibki-na-sayte-i-dodelat-frontend.html
+
+Оптимизировать скорость вордпресс под Google PageSpeed и в вебмастере https://fl.ru//projects/5308408/optimizirovat-skorost-vordpress-pod-google-pagespeed-i-v-vebmastere.html
+
+Создание карточек ВБ, ОЗОН https://fl.ru//projects/5308349/sozdanie-kartochek-vb-ozon.html
+
+Парсинг push уведомлений с телефона/эмулятора с последующей записью в mysql . https://fl.ru//projects/5308293/parsing-push-uvedomleniy-s-telefona-emulyatora-s-posleduyuschey-zapisyu-v-mysql-.html
+
+Дизайн промо слайдов для видео баннера.  https://fl.ru//projects/5308263/dizayn-promo-slaydov-dlya-video-bannera-.html
+
+Схема СОДК https://fl.ru//projects/5308161/shema-sodk.html
+
+Скрипт на Python: получить-показать сообщения https://fl.ru//projects/5308134/skript-na-python-poluchit-pokazat-soobscheniya.html
+
+Исполнитель определён https://fl.ru//projects/5308134/skript-na-python-poluchit-pokazat-soobscheniya.html
+
+Оформить гайд на тему здоровья (дофамин), чтобы удобно и приятно было читать https://fl.ru//projects/5308517/oformit-gayd-na-temu-zdorovya-dofamin-chtobyi-udobno-i-priyatno-byilo-chitat.html
+
+Визуализация ландшафт https://fl.ru//projects/5308513/vizualizatsiya-landshaft.html
+
+Посты для ТГ канала посвященному рекламе и продвижению. 1шт в неделю https://fl.ru//projects/5308519/postyi-dlya-tg-kanala-posvyaschennomu-reklame-i-prodvijeniyu-1sht-v-nedelyu.html
+
+Реферат и презентация по нему на тему "Протореклама в античности" https://fl.ru//projects/5308518/referat-i-prezentatsiya-po-nemu-na-temu-protoreklama-v-antichnosti.html
+
+Написание SEO текста https://fl.ru//projects/5308509/napisanie-seo-teksta.html
+
+Рассчитать забивную сваю  https://fl.ru//projects/5308514/rasschitat-zabivnuyu-svayu-.html
+
+Создать бот в тг https://fl.ru//projects/5308520/sozdat-bot-v-tg.html
+
+Запустить и провести рекламную кампанию в Telegram Ads  https://fl.ru//projects/5308507/zapustit-i-provesti-reklamnuyu-kampaniyu-v-telegram-ads-.html
+
+Раздел ОВВК для коттеджа https://fl.ru//projects/5308505/razdel-ovvk-dlya-kottedja.html
+
+Content Maker / SMM https://fl.ru//projects/5308515/content-maker---smm.html
+
+Макет меню в фигме для А3, переделываем в два макета на экраны https://fl.ru//projects/5308504/maket-menyu-v-figme-dlya-a3-peredelyivaem-v-dva-maketa-na-ekranyi.html
+
+Архитектор/конструктор https://fl.ru//projects/5306750/arhitektor-konstruktor.html
+
+Схемотехник https://fl.ru//projects/5308450/shemotehnik.html
+
+Помощник / Разнорабочий https://fl.ru//projects/5307932/pomoschnik---raznorabochiy.html
+
+Внедрить голосовой помощник в проект на React Native https://fl.ru//projects/5308500/vnedrit-golosovoy-pomoschnik-v-proekt-na-react-native.html
+
+Макет коробки https://fl.ru//projects/5308501/maket-korobki.html
+
+Поменять цвет на фото https://fl.ru//projects/5308502/pomenyat-tsvet-na-foto.html
+
+СММ менеджер для мед SPA https://fl.ru//projects/5308490/smm-menedjer-dlya-med-spa.html
+
+Таплинк https://fl.ru//projects/5308499/taplink.html
+
+Разработка сайта на Tilda https://fl.ru//projects/5308496/razrabotka-sayta-na-tilda.html
+
+Написать претензии к ИП https://fl.ru//projects/5308487/napisat-pretenzii-k-ip.html
+
+Помощь в кастомизации и доработке emulatorjs https://fl.ru//projects/5308498/pomosch-v-kastomizatsii-i-dorabotke-emulatorjs.html
+
+Рассылки в инстаграм по экспертам https://fl.ru//projects/5308492/rassyilki-v-instagram-po-ekspertam.html
+2024-04-11 18:05:12,053 - logger - INFO - Нужно найти ошибки на сайте и доделать frontend https://fl.ru//projects/5308420/nujno-nayti-oshibki-na-sayte-i-dodelat-frontend.html
+
+Оптимизировать скорость вордпресс под Google PageSpeed и в вебмастере https://fl.ru//projects/5308408/optimizirovat-skorost-vordpress-pod-google-pagespeed-i-v-vebmastere.html
+
+Создание карточек ВБ, ОЗОН https://fl.ru//projects/5308349/sozdanie-kartochek-vb-ozon.html
+
+Парсинг push уведомлений с телефона/эмулятора с последующей записью в mysql . https://fl.ru//projects/5308293/parsing-push-uvedomleniy-s-telefona-emulyatora-s-posleduyuschey-zapisyu-v-mysql-.html
+
+Дизайн промо слайдов для видео баннера.  https://fl.ru//projects/5308263/dizayn-promo-slaydov-dlya-video-bannera-.html
+
+Схема СОДК https://fl.ru//projects/5308161/shema-sodk.html
+
+Скрипт на Python: получить-показать сообщения https://fl.ru//projects/5308134/skript-na-python-poluchit-pokazat-soobscheniya.html
+
+Исполнитель определён https://fl.ru//projects/5308134/skript-na-python-poluchit-pokazat-soobscheniya.html
+
+Оформить гайд на тему здоровья (дофамин), чтобы удобно и приятно было читать https://fl.ru//projects/5308517/oformit-gayd-na-temu-zdorovya-dofamin-chtobyi-udobno-i-priyatno-byilo-chitat.html
+
+Визуализация ландшафт https://fl.ru//projects/5308513/vizualizatsiya-landshaft.html
+
+Реферат и презентация по нему на тему "Протореклама в античности" https://fl.ru//projects/5308518/referat-i-prezentatsiya-po-nemu-na-temu-protoreklama-v-antichnosti.html
+
+Посты для ТГ канала посвященному рекламе и продвижению. 1шт в неделю https://fl.ru//projects/5308519/postyi-dlya-tg-kanala-posvyaschennomu-reklame-i-prodvijeniyu-1sht-v-nedelyu.html
+
+Написание SEO текста https://fl.ru//projects/5308509/napisanie-seo-teksta.html
+
+Создать бот в тг https://fl.ru//projects/5308520/sozdat-bot-v-tg.html
+
+Рассчитать забивную сваю  https://fl.ru//projects/5308514/rasschitat-zabivnuyu-svayu-.html
+
+Запустить и провести рекламную кампанию в Telegram Ads  https://fl.ru//projects/5308507/zapustit-i-provesti-reklamnuyu-kampaniyu-v-telegram-ads-.html
+
+Раздел ОВВК для коттеджа https://fl.ru//projects/5308505/razdel-ovvk-dlya-kottedja.html
+
+Content Maker / SMM https://fl.ru//projects/5308515/content-maker---smm.html
+
+Макет меню в фигме для А3, переделываем в два макета на экраны https://fl.ru//projects/5308504/maket-menyu-v-figme-dlya-a3-peredelyivaem-v-dva-maketa-na-ekranyi.html
+
+Архитектор/конструктор https://fl.ru//projects/5306750/arhitektor-konstruktor.html
+
+Схемотехник https://fl.ru//projects/5308450/shemotehnik.html
+
+Помощник / Разнорабочий https://fl.ru//projects/5307932/pomoschnik---raznorabochiy.html
+
+Внедрить голосовой помощник в проект на React Native https://fl.ru//projects/5308500/vnedrit-golosovoy-pomoschnik-v-proekt-na-react-native.html
+
+Макет коробки https://fl.ru//projects/5308501/maket-korobki.html
+
+Поменять цвет на фото https://fl.ru//projects/5308502/pomenyat-tsvet-na-foto.html
+
+СММ менеджер для мед SPA https://fl.ru//projects/5308490/smm-menedjer-dlya-med-spa.html
+
+Разработка сайта на Tilda https://fl.ru//projects/5308496/razrabotka-sayta-na-tilda.html
+
+Написать претензии к ИП https://fl.ru//projects/5308487/napisat-pretenzii-k-ip.html
+
+Помощь в кастомизации и доработке emulatorjs https://fl.ru//projects/5308498/pomosch-v-kastomizatsii-i-dorabotke-emulatorjs.html
+
+Рассылки в инстаграм по экспертам https://fl.ru//projects/5308492/rassyilki-v-instagram-po-ekspertam.html
+
+Инженер-проектировщик (инженер-конструктор) АСУТП https://fl.ru//projects/5306211/injener-proektirovschik-injener-konstruktor-asutp.html
+2024-04-11 18:06:42,855 - logger - INFO - Нужно найти ошибки на сайте и доделать frontend https://fl.ru/projects/5308420/nujno-nayti-oshibki-na-sayte-i-dodelat-frontend.html
+
+Оптимизировать скорость вордпресс под Google PageSpeed и в вебмастере https://fl.ru/projects/5308408/optimizirovat-skorost-vordpress-pod-google-pagespeed-i-v-vebmastere.html
+
+Создание карточек ВБ, ОЗОН https://fl.ru/projects/5308349/sozdanie-kartochek-vb-ozon.html
+
+Парсинг push уведомлений с телефона/эмулятора с последующей записью в mysql . https://fl.ru/projects/5308293/parsing-push-uvedomleniy-s-telefona-emulyatora-s-posleduyuschey-zapisyu-v-mysql-.html
+
+Дизайн промо слайдов для видео баннера.  https://fl.ru/projects/5308263/dizayn-promo-slaydov-dlya-video-bannera-.html
+
+Схема СОДК https://fl.ru/projects/5308161/shema-sodk.html
+
+Скрипт на Python: получить-показать сообщения https://fl.ru/projects/5308134/skript-na-python-poluchit-pokazat-soobscheniya.html
+
+Исполнитель определён https://fl.ru/projects/5308134/skript-na-python-poluchit-pokazat-soobscheniya.html
+
+Оформить гайд на тему здоровья (дофамин), чтобы удобно и приятно было читать https://fl.ru/projects/5308517/oformit-gayd-na-temu-zdorovya-dofamin-chtobyi-udobno-i-priyatno-byilo-chitat.html
+
+Визуализация ландшафт https://fl.ru/projects/5308513/vizualizatsiya-landshaft.html
+
+Реферат и презентация по нему на тему "Протореклама в античности" https://fl.ru/projects/5308518/referat-i-prezentatsiya-po-nemu-na-temu-protoreklama-v-antichnosti.html
+
+Посты для ТГ канала посвященному рекламе и продвижению. 1шт в неделю https://fl.ru/projects/5308519/postyi-dlya-tg-kanala-posvyaschennomu-reklame-i-prodvijeniyu-1sht-v-nedelyu.html
+
+Написание SEO текста https://fl.ru/projects/5308509/napisanie-seo-teksta.html
+
+Создать бот в тг https://fl.ru/projects/5308520/sozdat-bot-v-tg.html
+
+Рассчитать забивную сваю  https://fl.ru/projects/5308514/rasschitat-zabivnuyu-svayu-.html
+
+Запустить и провести рекламную кампанию в Telegram Ads  https://fl.ru/projects/5308507/zapustit-i-provesti-reklamnuyu-kampaniyu-v-telegram-ads-.html
+
+Раздел ОВВК для коттеджа https://fl.ru/projects/5308505/razdel-ovvk-dlya-kottedja.html
+
+Content Maker / SMM https://fl.ru/projects/5308515/content-maker---smm.html
+
+Макет меню в фигме для А3, переделываем в два макета на экраны https://fl.ru/projects/5308504/maket-menyu-v-figme-dlya-a3-peredelyivaem-v-dva-maketa-na-ekranyi.html
+
+Архитектор/конструктор https://fl.ru/projects/5306750/arhitektor-konstruktor.html
+
+Схемотехник https://fl.ru/projects/5308450/shemotehnik.html
+
+Помощник / Разнорабочий https://fl.ru/projects/5307932/pomoschnik---raznorabochiy.html
+
+Внедрить голосовой помощник в проект на React Native https://fl.ru/projects/5308500/vnedrit-golosovoy-pomoschnik-v-proekt-na-react-native.html
+
+Макет коробки https://fl.ru/projects/5308501/maket-korobki.html
+
+Поменять цвет на фото https://fl.ru/projects/5308502/pomenyat-tsvet-na-foto.html
+
+СММ менеджер для мед SPA https://fl.ru/projects/5308490/smm-menedjer-dlya-med-spa.html
+
+Разработка сайта на Tilda https://fl.ru/projects/5308496/razrabotka-sayta-na-tilda.html
+
+Написать претензии к ИП https://fl.ru/projects/5308487/napisat-pretenzii-k-ip.html
+
+Помощь в кастомизации и доработке emulatorjs https://fl.ru/projects/5308498/pomosch-v-kastomizatsii-i-dorabotke-emulatorjs.html
+
+Рассылки в инстаграм по экспертам https://fl.ru/projects/5308492/rassyilki-v-instagram-po-ekspertam.html
+
+Инженер-проектировщик (инженер-конструктор) АСУТП https://fl.ru/projects/5306211/injener-proektirovschik-injener-konstruktor-asutp.html
+2024-04-11 18:07:14,688 - logger - INFO - Нужно найти ошибки на сайте и доделать frontend https://fl.ru/projects/5308420/nujno-nayti-oshibki-na-sayte-i-dodelat-frontend.html
+
+Оптимизировать скорость вордпресс под Google PageSpeed и в вебмастере https://fl.ru/projects/5308408/optimizirovat-skorost-vordpress-pod-google-pagespeed-i-v-vebmastere.html
+
+Создание карточек ВБ, ОЗОН https://fl.ru/projects/5308349/sozdanie-kartochek-vb-ozon.html
+
+Парсинг push уведомлений с телефона/эмулятора с последующей записью в mysql . https://fl.ru/projects/5308293/parsing-push-uvedomleniy-s-telefona-emulyatora-s-posleduyuschey-zapisyu-v-mysql-.html
+
+Дизайн промо слайдов для видео баннера.  https://fl.ru/projects/5308263/dizayn-promo-slaydov-dlya-video-bannera-.html
+
+Схема СОДК https://fl.ru/projects/5308161/shema-sodk.html
+
+Скрипт на Python: получить-показать сообщения https://fl.ru/projects/5308134/skript-na-python-poluchit-pokazat-soobscheniya.html
+
+Исполнитель определён https://fl.ru/projects/5308134/skript-na-python-poluchit-pokazat-soobscheniya.html
+
+Оформить гайд на тему здоровья (дофамин), чтобы удобно и приятно было читать https://fl.ru/projects/5308517/oformit-gayd-na-temu-zdorovya-dofamin-chtobyi-udobno-i-priyatno-byilo-chitat.html
+
+Визуализация ландшафт https://fl.ru/projects/5308513/vizualizatsiya-landshaft.html
+
+Реферат и презентация по нему на тему "Протореклама в античности" https://fl.ru/projects/5308518/referat-i-prezentatsiya-po-nemu-na-temu-protoreklama-v-antichnosti.html
+
+Посты для ТГ канала посвященному рекламе и продвижению. 1шт в неделю https://fl.ru/projects/5308519/postyi-dlya-tg-kanala-posvyaschennomu-reklame-i-prodvijeniyu-1sht-v-nedelyu.html
+
+Написание SEO текста https://fl.ru/projects/5308509/napisanie-seo-teksta.html
+
+Создать бот в тг https://fl.ru/projects/5308520/sozdat-bot-v-tg.html
+
+Рассчитать забивную сваю  https://fl.ru/projects/5308514/rasschitat-zabivnuyu-svayu-.html
+
+Запустить и провести рекламную кампанию в Telegram Ads  https://fl.ru/projects/5308507/zapustit-i-provesti-reklamnuyu-kampaniyu-v-telegram-ads-.html
+
+Раздел ОВВК для коттеджа https://fl.ru/projects/5308505/razdel-ovvk-dlya-kottedja.html
+
+Content Maker / SMM https://fl.ru/projects/5308515/content-maker---smm.html
+
+Макет меню в фигме для А3, переделываем в два макета на экраны https://fl.ru/projects/5308504/maket-menyu-v-figme-dlya-a3-peredelyivaem-v-dva-maketa-na-ekranyi.html
+
+Архитектор/конструктор https://fl.ru/projects/5306750/arhitektor-konstruktor.html
+
+Схемотехник https://fl.ru/projects/5308450/shemotehnik.html
+
+Помощник / Разнорабочий https://fl.ru/projects/5307932/pomoschnik---raznorabochiy.html
+
+Внедрить голосовой помощник в проект на React Native https://fl.ru/projects/5308500/vnedrit-golosovoy-pomoschnik-v-proekt-na-react-native.html
+
+Макет коробки https://fl.ru/projects/5308501/maket-korobki.html
+
+Поменять цвет на фото https://fl.ru/projects/5308502/pomenyat-tsvet-na-foto.html
+
+СММ менеджер для мед SPA https://fl.ru/projects/5308490/smm-menedjer-dlya-med-spa.html
+
+Разработка сайта на Tilda https://fl.ru/projects/5308496/razrabotka-sayta-na-tilda.html
+
+Написать претензии к ИП https://fl.ru/projects/5308487/napisat-pretenzii-k-ip.html
+
+Помощь в кастомизации и доработке emulatorjs https://fl.ru/projects/5308498/pomosch-v-kastomizatsii-i-dorabotke-emulatorjs.html
+
+Рассылки в инстаграм по экспертам https://fl.ru/projects/5308492/rassyilki-v-instagram-po-ekspertam.html
+
+Инженер-проектировщик (инженер-конструктор) АСУТП https://fl.ru/projects/5306211/injener-proektirovschik-injener-konstruktor-asutp.html

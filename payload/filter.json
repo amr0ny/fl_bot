@@ -1,0 +1,39 @@
+{
+    "active": true,
+    "prof_groups": [],
+    "professions": [
+        {
+            "id": 37,
+            "name": "Веб-программирование",
+            "name_en": "web-programmist-programmirovanie",
+            "prof_group": {
+                "id": 5,
+                "name": "Программирование",
+                "name_en": "programmirovanie",
+                "rank": 3,
+                "link": "http://www.fl.ru/catalog/programmirovanie/"
+            }
+        }
+    ],
+    "country_id": 0,
+    "city_id": 0,
+    "cost_min": {
+        "amount": 0,
+        "currency": "RUB"
+    },
+    "cost_max": {
+        "amount": 0,
+        "currency": "RUB"
+    },
+    "keywords": [],
+    "pro_only": true,
+    "safe_deal": false,
+    "my_specs": false,
+    "urgent": false,
+    "without_executor": false,
+    "less_offers": false,
+    "without_cost": true,
+    "konkurs_end_days_from": null,
+    "konkurs_end_days_to": null,
+    "without_pro": false
+}
