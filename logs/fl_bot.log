@@ -1177,3 +1177,829 @@ Front-end разработчик (от Middle) в большой проект (V
 Сервис вебинаров и автовебинаров. (Node.js http фреймворк Express База MySQL)  https://www.fl.ru/projects/5308351/servis-vebinarov-i-avtovebinarov-nodejs-http-freymvork-express-baza-mysql-.html
 
 Разработка web сайтв https://www.fl.ru/projects/5308336/razrabotka-web-saytv.html
+2024-04-12 09:29:12,732 - logger - DEBUG - <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta content="initial-scale=1, width=device-width, user-scalable=no" name="viewport" />
+
+    
+    <meta name="csrf-token" content="2cRdkCWv6O5yqXFRXKQM1plsA8TOYEqwOaFeVrwK" />
+    <meta name="current-uid" content="0" />
+    <meta name="recaptcha-site-key" content="6LfyrzIaAAAAADxcAWE0Li7ViNp5HdOz8d129ydE" />
+        <script type="text/javascript">
+                window.csrf_token = "2cRdkCWv6O5yqXFRXKQM1plsA8TOYEqwOaFeVrwK";
+    </script>
+    
+<meta name="description" lang="ru" content="FL.ru это профессиональный ресурс, предназначенный для поиска работы или исполнителя (фрилансера) на удаленную работу (фриланс)." />
+<meta name="apple-itunes-app" content="app-id=1467174481">
+<meta property="og:locale" content="ru_RU" />
+<meta property="fb:app_id" content="1417314125245378" />
+<meta property="fp:pages" content="172294939454798" />
+<title>403 Forbidden</title>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-W8DQCVQ');</script>
+    <!-- End Google Tag Manager -->
+
+      <!-- FLS-971 
+          <script async src="https://cdn.topmind.io/static/tracker.min.js"></script>
+          <script>
+              window.$tmt = window.$tmt || function () {($tmt.q = $tmt.q || []).push(arguments)};
+              $tmt('init', '17', 'azovgoyb80', {initApiCall: true});
+
+              
+              $tmt('pageview');
+
+              // связывание с GA CID
+              if (typeof window.ga !== 'undefined' &&
+                  typeof window.$tmt.q === 'undefined') {
+
+                  ga(function (tracker) {
+                      var gaId = tracker.get('clientId');
+                      window.$tmt('setGa', gaId);
+                  });
+              }
+          </script>
+      -->
+
+
+
+
+<script type="text/javascript">
+    var ___WDCPREFIX = 'https://st.fl.ru';
+    var CKEDITOR_BASEPATH = '/scripts/ckedit/';
+    var _TOKEN_KEY = '7802e7369a27589decb3459b09f7d0cd';
+    var _UID = 0;
+    var _EMP = false;
+        window.ga_events = { queue: [], send: function() { this.queue.push(arguments); } }
+</script>
+<meta content="FL.ru" name="apple-mobile-web-app-title">
+            <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://st.fl.ru/images/favicons/apple-touch-icon-57x57.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://st.fl.ru/images/favicons/apple-touch-icon-72x72.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://st.fl.ru/images/favicons/apple-touch-icon-114x114.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://st.fl.ru/images/favicons/apple-touch-icon-120x120.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://st.fl.ru/images/favicons/apple-touch-icon-144x144.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://st.fl.ru/images/favicons/apple-touch-icon-152x152.png" />
+    
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+
+<script type="text/javascript">
+    var _NEW_TEMPLATE = true;
+        var _SHORT_CAROUSEL = true;
+            var _G_HELP_ID = 26;
+    var CUSTOM_TARGET = '';
+CUSTOM_TARGET = 'unauth;unpro;unverif';
+</script>
+                                                                                                                                                                        
+            <link type="text/css" href="https://st.fl.ru/assets/legacy/vendors.ca683a471f009c227cf3f64001fe4e40.css" rel="stylesheet" charset="utf-8" />
+        
+        
+                <script type="text/javascript" src="https://st.fl.ru/assets/legacy/vendors.3e6e511194a0ed22cf19e4522c92af21.js" charset="utf-8"></script>
+                        <script type="text/javascript" src="https://st.fl.ru/assets/legacy/kword.f4fda3147786cf3fd6ac33b467d84af6.js" charset="utf-8"></script>
+                        <script type="text/javascript" src="https://st.fl.ru/assets/legacy/professions.ea84e591ad2379f4a66c7b7e2eaf42ac.js" charset="utf-8"></script>
+                        <script type="text/javascript" src="https://st.fl.ru/assets/legacy/cities.bb8801085c82c1dc2eba2dd1a5c94d33.js" charset="utf-8"></script>
+                        <script type="text/javascript" src="https://st.fl.ru/assets/legacy/entry-client-manifest.f3c1de16134d3d3ec84e48c3bafc034a.js" charset="utf-8"></script>
+                        <script type="text/javascript" src="https://st.fl.ru/assets/legacy/entry-client-vendor.e969f7e6eea41774277cd84bccee2ce9.js" charset="utf-8"></script>
+                        <script type="text/javascript" src="https://st.fl.ru/assets/legacy/entry-client.85b0df4ec8c5dfb05e8cdc79eaaaf4b0.js" charset="utf-8"></script>
+                        <script type="text/javascript" src="https://st.fl.ru/assets/legacy/vendors-frontend.5e26ca2c74d1a02536a06bb0ad2d9a69.js" charset="utf-8"></script>
+            
+                
+        
+                    <script type='text/javascript'>
+    var _gaq = _gaq || [];
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-163162-4', 'auto');
+    
+    ga(function (tracker) {
+        var clientId = tracker.get('clientId');
+        document.cookie = "_ga_cid=" + clientId + "; path=/";
+        ga('set', 'dimension1', clientId);
+    });
+
+    
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RD9LL0K106"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  if (window.location.host === 'www.fl.ru') {
+    gtag('config', 'G-RD9LL0K106');
+  } else {
+    gtag('config', 'G-RD9LL0K106', { 'debug_mode': true });
+  }
+
+</script>
+            
+            
+</head>
+<body  class="b-page u-guest chrome ">
+
+            <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W8DQCVQ"
+                          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    
+                                <!-- Yandex.Metrika counter begin-->
+            <script type="text/javascript" >
+                (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+                (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+                                ym(6051055, "init", {
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true,
+                    webvisor:true,
+                    userParams: {
+                        UserID: 0                    }
+                });
+
+            </script>
+            <noscript><div><img src="https://mc.yandex.ru/watch/6051055" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+            <!-- /Yandex.Metrika counter -->
+            <script type="text/javascript">
+                function yaCounterReachGoal(p) {
+                    try {
+                        ym(6051055, 'reachGoal', p);
+                    } catch(e) { }
+                }
+                if (typeof window.$tmt !== 'undefined') {
+                    document.addEventListener('yacounter6051055inited', (event) => {
+                        window.$tmt('setYm', yaCounter6051055.getClientID());
+                    });
+                }
+            </script>
+                <!-- /Yandex.Metrika counter -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <div class="d-flex flex-row">
+                <a class="navbar-brand"  href="/"  title="На главную">
+                    <span class="navbar-logo">
+                        <svg width="37" height="31">
+                            <use xlink:href="#logo"></use>
+                        </svg>
+                    </span>
+                </a>
+                <ul data-id="qa-head-ul-main" class="navbar-nav flex-row mr-auto">
+                    <li class="nav-item d-md-block d-none ">
+                        <a data-id="qa-head-work" data-ga-event="{ec: 'user', ea: 'main_menu_clicked',el: 'projects'}" href="/projects/" class="nav-link px-0" title="Список заказов для фрилансеров">Работа</a>
+                    </li>
+                    <li data-id="qa-head-li-drop-menu" class="d-none d-md-flex align-items-center nav-item nav-item-hover-show dropdown mr-16">
+                        <a class="nav-link dropdown-toggle dropdown-toggle-icon pr-0"
+                           href="#" role="button"
+                           data-toggle="dropdown"
+                           aria-haspopup="true"
+                           aria-expanded="false">
+                          <span class="d-none d-md-inline">
+                              <svg width="12" height="9">
+                                  <use xlink:href="#dropdown"></use>
+                              </svg>
+                          </span>
+                        </a>
+                                                                        <div class="dropdown-menu entire-scroll position-absolute dropdown-menu_left shadow" aria-labelledby="navbarLeftDropdown">
+                                                                                                                                                            <a href="/projects/category/saity/" class="dropdown-item" title="Сайты">
+                                    Сайты                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="/projects/category/dizajn/" class="dropdown-item" title="Дизайн">
+                                    Дизайн                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="/projects/category/programmirovanie/" class="dropdown-item" title="Программирование">
+                                    Программирование                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="/projects/category/teksty/" class="dropdown-item" title="Тексты">
+                                    Тексты                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="/projects/category/reklama-marketing/" class="dropdown-item" title="Реклама и Маркетинг">
+                                    Реклама и Маркетинг                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <a href="/projects/category/prodvizhenie-saitov-seo/" class="dropdown-item" title="Продвижение сайтов (SEO)">
+                                    Продвижение сайтов (SEO)                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="/projects/category/audio-video-photo/" class="dropdown-item" title="Аудио/Видео/Фото">
+                                    Аудио/Видео/Фото                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="/projects/category/konsalting/" class="dropdown-item" title="Аутсорсинг и консалтинг">
+                                    Аутсорсинг и консалтинг                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="/projects/category/inzhiniring/" class="dropdown-item" title="Инжиниринг">
+                                    Инжиниринг                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="/projects/category/risunki-i-illustracii/" class="dropdown-item" title="Рисунки и иллюстрации">
+                                    Рисунки и иллюстрации                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="/projects/category/3d-Grafika/" class="dropdown-item" title="3D Графика">
+                                    3D Графика                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="/projects/category/animaciya/" class="dropdown-item" title="Анимация">
+                                    Анимация                                </a>
+                                                                                                                                                                                            <a href="/projects/category/internet-magaziny/" class="dropdown-item" title="Интернет-магазины">
+                                    Интернет-магазины                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="/projects/category/marketplace-management/" class="dropdown-item" title="Маркетплейс менеджмент">
+                                    Маркетплейс менеджмент                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <a href="/projects/category/ai-iskusstvenniy-intellekt/" class="dropdown-item" title="AI — искусственный интеллект">
+                                    AI — искусственный интеллект                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="/projects/category/mobile/" class="dropdown-item" title="Mobile">
+                                    Mobile                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="/projects/category/games/" class="dropdown-item" title="Игры">
+                                    Игры                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a href="/projects/category/socialnye-seti/" class="dropdown-item" title="Социальные сети">
+                                    Социальные сети                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <a href="/projects/category/crypto-i-blockchain/" class="dropdown-item" title="Крипто и блокчейн">
+                                    Крипто и блокчейн                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="/projects/category/messengers/" class="dropdown-item" title="Мессенджеры">
+                                    Мессенджеры                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="/projects/category/avtomatizaciya-biznesa/" class="dropdown-item" title="Автоматизация бизнеса">
+                                    Автоматизация бизнеса                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="/projects/category/brauzery/" class="dropdown-item" title="Браузеры">
+                                    Браузеры                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </div>
+                                            </li>
+                    <li class="nav-item d-lg-block d-none ">
+                        <a data-id="qa-head-freelancers" data-ga-event="{ec: 'user', ea: 'main_menu_clicked',el: 'freelancers'}" href="/freelancers/" class="nav-link px-0" title="Раздел фрилансеров">Фрилансеры</a>
+                    </li>
+                                                                <li data-id="qa-head-li-drop" class="d-none d-lg-block nav-item nav-item-hover-show dropdown mr-16">
+                            <a
+                                class="nav-link dropdown-toggle dropdown-toggle-icon pr-0"
+                                href="#"
+                                role="button"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                            >
+                                <span class="d-none d-lg-inline">
+                                    <svg width="12" height="9">
+                                        <use xlink:href="#dropdown"></use>
+                                    </svg>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu entire-scroll position-absolute dropdown-menu_left shadow"
+                                 aria-labelledby="navbarLeftDropdown">
+                                                                                                                                                                                        <a href="/freelancers/saity/" class="dropdown-item" title="Сайты">
+                                            Сайты                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="/freelancers/dizajn/" class="dropdown-item" title="Дизайн">
+                                            Дизайн                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="/freelancers/programmirovanie/" class="dropdown-item" title="Программирование">
+                                            Программирование                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="/freelancers/teksty/" class="dropdown-item" title="Тексты">
+                                            Тексты                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="/freelancers/reklama-marketing/" class="dropdown-item" title="Реклама и Маркетинг">
+                                            Реклама и Маркетинг                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="/freelancers/prodvizhenie-saitov-seo/" class="dropdown-item" title="Продвижение сайтов (SEO)">
+                                            Продвижение сайтов (SEO)                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="/freelancers/audio-video-photo/" class="dropdown-item" title="Аудио/Видео/Фото">
+                                            Аудио/Видео/Фото                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="/freelancers/konsalting/" class="dropdown-item" title="Аутсорсинг и консалтинг">
+                                            Аутсорсинг и консалтинг                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="/freelancers/inzhiniring/" class="dropdown-item" title="Инжиниринг">
+                                            Инжиниринг                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="/freelancers/risunki-i-illustracii/" class="dropdown-item" title="Рисунки и иллюстрации">
+                                            Рисунки и иллюстрации                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="/freelancers/3d-Grafika/" class="dropdown-item" title="3D Графика">
+                                            3D Графика                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="/freelancers/animaciya/" class="dropdown-item" title="Анимация">
+                                            Анимация                                        </a>
+                                                                                                                                                                                                                            <a href="/freelancers/internet-magaziny/" class="dropdown-item" title="Интернет-магазины">
+                                            Интернет-магазины                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="/freelancers/marketplace-management/" class="dropdown-item" title="Маркетплейс менеджмент">
+                                            Маркетплейс менеджмент                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="/freelancers/ai-iskusstvenniy-intellekt/" class="dropdown-item" title="AI — искусственный интеллект">
+                                            AI — искусственный интеллект                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="/freelancers/mobile/" class="dropdown-item" title="Mobile">
+                                            Mobile                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="/freelancers/games/" class="dropdown-item" title="Игры">
+                                            Игры                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="/freelancers/socialnye-seti/" class="dropdown-item" title="Социальные сети">
+                                            Социальные сети                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="/freelancers/crypto-i-blockchain/" class="dropdown-item" title="Крипто и блокчейн">
+                                            Крипто и блокчейн                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="/freelancers/messengers/" class="dropdown-item" title="Мессенджеры">
+                                            Мессенджеры                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="/freelancers/avtomatizaciya-biznesa/" class="dropdown-item" title="Автоматизация бизнеса">
+                                            Автоматизация бизнеса                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="/freelancers/brauzery/" class="dropdown-item" title="Браузеры">
+                                            Браузеры                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </div>
+                        </li>
+                                                            <li class="nav-item d-xl-block d-none ">
+                        <a data-id="qa-head-konkurs" data-ga-event="{ec: 'user', ea: 'main_menu_clicked',el: 'konkurs'}" href="/konkurs/" class="nav-link" title="Список конкурсов для фрилансеров">Конкурсы</a>
+                    </li>
+                    <li class="nav-item d-xl-block d-none ">
+                        <a data-id="qa-head-vacancies" data-ga-event="{ec: 'user', ea: 'main_menu_clicked',el: 'vacancy'}" href="/vakansii/" class="nav-link" title="Список вакансий для фрилансеров">Вакансии</a>
+                    </li>
+                    <li class="nav-item d-xl-block d-none ">
+                        <a data-id="qa-head-search" data-ga-event="{ec: 'user', ea: 'main_menu_clicked',el: 'search'}" href="/search/" class="nav-link" title="Поиск по сайту">Поиск</a>
+                    </li>
+                    <li data-id="qa-head-li-more" class="nav-item dropdown d-flex">
+                        <a
+                            class="nav-link dropdown-toggle dropdown-toggle-icon pr-0"
+                            href="#"
+                            id="navbarLeftDropdown"
+                            role="button"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                        >
+                        <span class="d-none d-lg-inline">
+                            Еще<svg class="ml-8" width="12" height="9">
+                                <use xlink:href="#dropdown"></use>
+                            </svg>
+                        </span>
+                            <span class="d-inline d-lg-none">
+                            <svg width="22" height="22">
+                                <use xlink:href="#menu"></use>
+                            </svg>
+                        </span>
+                        </a>
+                        <div class="dropdown-menu position-absolute dropdown-menu_left shadow" aria-labelledby="navbarLeftDropdown">
+                            <a data-ga-event="{ec: 'user', ea: 'main_menu_clicked',el: 'projects'}" href="/projects/" class="dropdown-item d-lg-none d-block" title="Список заказов для фрилансеров">Работа</a>
+                            <a data-ga-event="{ec: 'user', ea: 'main_menu_clicked',el: 'freelancers'}" href="/freelancers/" class="dropdown-item d-lg-none d-block"  title="Каталог фрилансеров">Фрилансеры</a>
+                                                        <a data-ga-event="{ec: 'user', ea: 'main_menu_clicked',el: 'konkurs'}" href="/konkurs/" class="dropdown-item d-xl-none d-block" title="Список конкурсов для фрилансеров">
+                                Конкурсы
+<!--                                <span class="badge badge-pill badge-warning ml-8" style="display: inline; float: none;">Скидка 509%</span>-->
+                            </a>
+                            <a data-ga-event="{ec: 'user', ea: 'main_menu_clicked',el: 'vacancy'}" rel="nofollow" href="/vakansii/" class="dropdown-item d-xl-none d-block" title="Список вакансий для фрилансеров">Вакансии</a>
+                            <a data-ga-event="{ec: 'user', ea: 'main_menu_clicked',el: 'search'}" rel="nofollow" href="/search/" class="dropdown-item d-lg-none d-block" title="Поиск по сайту">Поиск</a>
+                            <a data-ga-event="{ec: 'user', ea: 'main_menu_clicked',el: 'blog'}" href="https://blog.fl.ru/" class="dropdown-item" title="Блог">Блог</a>
+                            <a data-ga-event="{ec: 'user', ea: 'main_menu_clicked',el: 'bs'}" href="/promo/bezopasnaya-sdelka/" class="dropdown-item" title="Безопасная сделка">Безопасная сделка</a>
+                            <a data-ga-event="{ec: 'user', ea: 'main_menu_clicked',el: 'partner'}" href="/partner/" class="dropdown-item" title="Партнерская программа">Партнерская программа</a>
+                            <a data-ga-event="{ec: 'user', ea: 'main_menu_clicked',el: 'knowledge_base'}" href="https://knowledge-base.fl.ru/" class="dropdown-item" target="_blank" title="База знаний">База знаний</a>
+                            <noindex><a data-ga-event="{ec: 'user', ea: 'main_menu_clicked',el: 'help'}" rel="nofollow" target="_blank"  href="https://knowledge-base.fl.ru/" class="dropdown-item" title="Помощь" data-id="userecho">Помощь</a></noindex>
+<!--                            <a data-ga-event="{ec: 'user', ea: 'main_menu_clicked',el: 'communities'}" href="/communities/beginners/" class="dropdown-item" title="Сообщество">Сообщество</a>-->
+                            <a data-ga-event="{ec: 'user', ea: 'main_menu_clicked',el: 'digital'}" href="/digital" class="dropdown-item" title="Навыки фрилансеров">Навыки фрилансеров</a>
+                            <a data-ga-event="{ec: 'user', ea: 'main_menu_clicked',el: 'app_ios'}" href="https://promo.fl.ru/pwa-prilozhenie-fl" target="_blank" class="dropdown-item" title="Приложение для iOS">Приложение для iOS</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div data-id="qa-head-right-block" class="d-flex flex-row align-items-center">
+                <ul class="navbar-nav position-relative flex-row d-none d-xs-block mr-14 mr-sm-0 mr-md-8">
+                    <a
+                        data-ga-event="{ec: 'user', ea: 'main_menu_clicked',el: 'search'}"
+                        href="/search/"
+                        title="Поиск по сайту"
+                        class="hover-icon-round mr-8"
+                    >
+                        <svg width="32" height="32">
+                            <use xlink:href="#search-white"></use>
+                        </svg>
+                    </a>
+                </ul>
+            <div data-id="qa-head-right-block" class="d-flex flex-row align-items-center">
+                <a data-id="qa-head-create-order" href="/task/?ec=project_create_header_noauth"
+                   class="d-none d-sm-block ui-button _responsive _success _sm mr-lg-36 mr-24"
+                   title="Разместить заказ" data-ga-event="{&quot;ec&quot;:&quot;project_create_wizard_noauth&quot;,&quot;ea&quot;:&quot;focus_project_create_header&quot;}" data-ga-on="focus">
+                    Разместить заказ
+                </a>
+                                    <ul class="navbar-nav flex-row">
+                        <li class="nav-item">
+                            <div rel="nofollow"
+                                 data-id="qa-head-registration"
+                                 onclick="location.href = '/account/registration-choice/'"
+                                 class="nav-link pl-16 pr-24 cursor-pointer "
+                                 title="Регистрация">Регистрация</div>
+                        </li>
+                        <li class="nav-item">
+                            <div data-id="qa-head-sign-in" data-ga-event="{&quot;ec&quot;:&quot;user&quot;,&quot;ea&quot;:&quot;registration_button2_clicked&quot;}" data-ga-on="click" rel="nofollow" onclick="location.href = '/account/login/'" class="cursor-pointer nav-link pr-0">Вход</div>
+                        </li>
+                    </ul>
+                            </div>
+        </div>
+    </nav>
+    <div class="b-page__notif-wrapper"></div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        if (window.jQuery) {
+            (function ($) {
+                $('[data-popup-close-trigger]').click(function (e) {
+                    e.preventDefault();
+                    var href = $(this).attr('href');
+                    $.ajax({
+                        type: 'POST',
+                        data: {
+                            _token: '2cRdkCWv6O5yqXFRXKQM1plsA8TOYEqwOaFeVrwK',
+                            type: $(this).data('popup-close-trigger'),
+                        },
+                        url: '/marketing/popup/closed/',
+                        success: function() {
+                            if (href) window.location = href;
+                        },
+                        cache: false
+                    });
+                });
+            })(jQuery);
+        }
+    });
+</script>
+<script id="xcntmyAsync"
+    type="text/javascript"> (function(d){
+    var xscr = d.createElement( 'script' ); xscr.async = 1; xscr.src = '//x.cnt.my/async/track/?r=' + Math.random(); var x
+    = d.getElementById( 'xcntmyAsync' ); x.parentNode.insertBefore( xscr, x );
+    })(document);
+</script>
+
+
+<div class="b-page__wrapper">
+    <div class="b-page__inner">
+        <div class="b-page__page b-page__page_padtop_20_r600 b-page__page_padtop_75_r1000 b-page__page_padtop_20 page-with-banner">
+                            <div
+            class="b-layout b-layout_relative b-layout_padbot_20"
+            data-ga-on="show"
+            data-ga-event="{ec: 'user', ea: 'show-banner_advertisement_all-pages', el: '65;/projects/'}"
+        >
+            <a
+                href="https://vk.com/wall-17975248_44263" data-ga-event="{ec: 'user', ea: 'click-banner_advertisement_all-pages', el: '65;/projects/'}" onclick="return false;" data-redirect-after-ga=""
+                target="_blank"
+            >
+                <img src="https://st.fl.ru/marketing_banners/65/5/f_1016604f3503a451.png" alt="" class="d-none d-xl-block mx-auto mw-100">
+                <img src="https://st.fl.ru/marketing_banners/65/4/f_9486604f350062fb.png" alt="" class="d-none d-lg-block d-xl-none mx-auto mw-100">
+                <img src="https://st.fl.ru/marketing_banners/65/3/f_1236604f34fd0bc3.png" alt="" class="d-none d-md-block d-lg-none mx-auto mw-100">
+                <img src="https://st.fl.ru/marketing_banners/65/2/f_2446604f34fa8a2a.png" alt="" class="d-none d-sm-block d-md-none mx-auto mw-100">
+                <img src="https://st.fl.ru/marketing_banners/65/1/f_7696604f34f52c70.png" alt="" class="d-block d-sm-none mx-auto mw-100">
+            </a>
+        </div>
+                    
+        
+        
+        
+                    
+            </div>
+        <div class="b-layout b-layout__page " style="margin-top:0px">
+                <div class="body">
+            <div class="main">
+                                <a name="top"></a>
+                <table class="b-layout__table b-layout__table_width_full">
+   <tr class="b-layout__tr">
+      <td class="b-layout__td b-layout__td_padright_20">
+        <h1 class="b-page__title">Ошибка 403</h1>
+        <div class="b-layout__txt">
+            Чтобы получить доступ к этой странице, пожалуйста, переключитесь на смежный профиль.<br />
+            Для этого нужно кликнуть по аватарке справа на верхней панели и выбрать пункт «Войти как заказчик/фрилансер».
+        </div>
+      </td>
+      <td class="b-layout__td b-layout__td_width_240 b-layout__td_width_null_iphone">
+        <div class="b-page__desktop b-page__ipad">
+              <!-- Banner 240x400 -->
+              <div id="banner_wrap" class="b-layout b-layout_relative">
+    <div id="b-banner_fix">
+                    <div class="b-banner-new b-banner_layout_vert"
+             data-ga-on="show"
+             data-ga-event="{ec: 'user', ea: 'show-banner_right-advertisement', el: '14;/projects/'}"
+        >
+            <a href="https://www.dizkon.ru/"
+               data-ga-event="{ec: 'user', ea: 'click-banner_right-advertisement', el: '14;/projects/'}"
+               onclick="return false;"
+               data-redirect-after-ga=""
+               target="_blank"
+            >
+                <img src="https://st.fl.ru/marketing_banners/14/2/f_0696400957670073.png" alt="" class="d-none d-sm-block mw-100">
+            </a>
+            <div class="b-layout__txt b-layout__txt_padbot_10 b-layout__txt_center">
+            </div>
+        </div>
+                </div>
+</div>
+              <!-- end of Banner 240x400 -->
+        </div>
+      </td>
+   </tr>
+</table>
+                            </div>
+        </div>
+        </div>
+        <footer id="i-footer" class="mt-auto i-footer">
+    <div class="container p-0">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="row pt-16 pb-36">
+            <div class="col-lg-12">
+                <div class="d-flex flex-row justify-content-between align-items-center mb-32">
+                    <div>
+                        <div>
+                            <div class="flex-row d-flex align-items-center">
+                                <div class="d-none d-md-flex flex-row d-lg-none">
+                                    <div class="d-block d-md-inline-block mr-md-24 mb-36 mb-md-0 mt-md-0 mt-16">
+                                        © FL.ru, 2005 – 2024                                    </div>
+                                    <div class="d-block d-md-inline-block mr-md-24 mb-16 mb-md-0">
+                                        <a href="/about/" target="_blank">О проекте</a>
+                                    </div>
+                                    <div class="d-block d-md-inline-block mr-md-24 mb-16 mb-md-0">
+                                        <a href="/about/appendix_2_regulations.pdf" target="_blank">Правила</a>
+                                    </div>
+                                    <div class="d-block d-md-inline-block mr-md-24 mb-16 mb-md-0">
+                                        <a href="/security/" target="_blank">Безопасность</a>
+                                    </div>
+                                    <div class="d-block d-md-inline-block mr-md-24 mb-16 mb-md-0">
+                                        <a href="https://knowledge-base.fl.ru/" data-id="userecho">Помощь</a>
+                                    </div>
+                                                                    </div>
+                                <div class="d-none d-lg-flex">
+                                                                        <a class="d-flex align-items-center justify-content-center d-block btn-ico shadow mr-16"
+                                       target="_blank" href="http://vk.com/free_lanceru">
+                                        <svg width="25" height="14">
+                                            <use xlink:href="#vk"></use>
+                                        </svg>
+                                    </a>
+                                    <a class="d-flex align-items-center justify-content-center btn-ico shadow mr-16"
+                                       target="_blank"
+                                       href="https://play.google.com/store/apps/details?id=ru.fl.flmobile&hl=ru&showAllReviews=true">
+                                        <svg width="20" height="20">
+                                            <use xlink:href="#android"></use>
+                                        </svg>
+                                    </a>
+                                    <a class="d-flex align-items-center justify-content-center d-block btn-ico shadow"
+                                       target="_blank"
+                                       href="https://promo.fl.ru/pwa-prilozhenie-fl">
+                                        <svg width="20" height="20">
+                                            <use xlink:href="#ios"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex-row justify-content-between align-items-md-center d-flex">
+                            <a class="d-flex align-items-center justify-content-center"
+                               target="_blank"
+                               href="https://sk.ru/">
+                                <svg width="74" height="50">
+                                    <use xlink:href="#skolkovo"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-block d-lg-flex flex-row justify-content-between align-items-center">
+                    <div class="d-block flex-row d-md-none d-lg-flex">
+                        <div class="d-block d-md-inline-block mr-md-24 mb-36 mb-md-0 mt-md-0 mt-16">
+                            © FL.ru, 2005 – 2024                        </div>
+                        <div class="d-block d-md-inline-block mr-md-24 mb-16 mb-md-0">
+                            <a href="/about/" target="_blank">О проекте</a>
+                        </div>
+                        <div class="d-block d-md-inline-block mr-md-24 mb-16 mb-md-0">
+                            <a href="/about/appendix_2_regulations.pdf" target="_blank">Правила</a>
+                        </div>
+                        <div class="d-block d-md-inline-block mr-md-24 mb-16 mb-md-0">
+                            <a href="/security/" target="_blank">Безопасность</a>
+                        </div>
+                        <div class="d-block d-md-inline-block mr-md-24 mb-16 mb-md-0">
+                            <a href="https://knowledge-base.fl.ru/" data-id="userecho">Помощь</a>
+                        </div>
+                                            </div>
+                    <div class="d-block d-md-flex justify-content-between">
+                        <div class="align-items-lg-center d-flex flex-column d-lg-none">
+                            <div class="d-flex mt-16 mt-sm-0 mb-30 mb-md-0 align-items-center">
+                                                                <a class="d-flex align-items-center justify-content-center d-block btn-ico shadow mr-16"
+                                   target="_blank" href="http://vk.com/free_lanceru">
+                                    <svg width="25" height="14">
+                                        <use xlink:href="#vk"></use>
+                                    </svg>
+                                </a>
+                                <a class="d-flex align-items-center justify-content-center btn-ico shadow mr-16"
+                                   target="_blank"
+                                   href="https://play.google.com/store/apps/details?id=ru.fl.flmobile&hl=ru&showAllReviews=true">
+                                    <svg width="20" height="20">
+                                        <use xlink:href="#android"></use>
+                                    </svg>
+                                </a>
+                                <a class="d-flex align-items-center justify-content-center d-block btn-ico shadow"
+                                   target="_blank"
+                                   href="https://promo.fl.ru/pwa-prilozhenie-fl">
+                                    <svg width="20" height="20">
+                                        <use xlink:href="#ios"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center">
+                            <div class="mr-24">Наши партнеры</div>
+                            <a class="d-flex align-items-center justify-content-center mr-16"
+                               href="http://www.dizkon.ru/" target="_blank">
+                                <svg width="84" height="21">
+                                    <use xlink:href="#dizkon"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-32 mt-lg-36 pb-36 text-10 text-gray-str">
+                Сведения об ООО «Ваан» внесены в реестр аккредитованных организаций, осуществляющих деятельность в области информационных технологий. ООО «Ваан» осуществляет деятельность, связанную с использованием информационных технологий, по разработке компьютерного программного обеспечения, предоставлению доступа к программе для ЭВМ и является правообладателем программы для ЭВМ «Платформа FL.ru (версия 2.0)».
+            </div>
+        </div>
+    </div>
+</footer>
+    </div><!--b-page__page-->
+    </div>
+    </div>
+<ui-snakebar id="ui-snakebar"></ui-snakebar>
+<messages-open-window id="open-chat"></messages-open-window>
+<auth-modal id="auth-modal-app"></auth-modal>
+<div id="popups_container">
+    </div>
+<banner-profile id="app-banner-profile" :is-banner-without-budget="0"></banner-profile>
+<sms-modal id="app-sms-modal-general"></sms-modal>
+<any-desk id="any-desk-id"></any-desk>
+<user-echo-helper id="user-echo-helper-id"></user-echo-helper>
+<page-up-button id="page-up-button"></page-up-button>
+
+
+<script type="text/javascript">
+    window.addEvent('domready', function() {
+        CSRF(_TOKEN_KEY);
+            });
+</script>
+
+    
+<script type='text/javascript'>
+    mindbox = window.mindbox || function() { mindbox.queue.push(arguments); };
+    mindbox.queue = mindbox.queue || [];
+    mindbox('create', {
+        endpointId: 'fl.ru',
+        firebaseMessagingSenderId: '1049598945361',
+        serviceWorkerPath: "/scripts/mindbox/mindbox-services-worker.js"
+    });
+    mindbox('webpush.create');
+</script>
+<script src="https://api.mindbox.ru/scripts/v1/tracker.js" async></script>
+
+
+
+<script type='text/javascript'>
+    window.addEvent('domready', function() {
+            });
+</script>
+
+<script>
+    !function() {
+        var t = document.createElement("script");
+        t.type = "text/javascript";
+        t.async = !0;
+        t.src = "https://vk.com/js/api/openapi.js?168";
+        t.onload = function() {
+            VK.Retargeting.Init("VK-RTRG-770158-3bPSa");
+            VK.Retargeting.Hit();
+                                };
+        document.head.appendChild(t)
+    }();
+</script>
+<noscript><img src="https://vk.com/rtrg?p=VK-RTRG-770158-3bPSa" style="position:fixed; left:-999px;" alt=""/></noscript>
+
+
+
+<!-- Rating@Mail.ru counter -->
+<script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "3297068", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  //ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+  ts.src = 'https://st.fl.ru/scripts/mailru/code.js';
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "topmailru-code");
+</script><noscript><div style="position:absolute;left:-10000px;">
+<img src="//top-fwz1.mail.ru/counter?id=3297068;js=na" style="border:0;" height="1" width="1" alt="Рейтинг@Mail.ru" />
+</div></noscript>
+<!-- //Rating@Mail.ru counter -->
+
+
+    
+    
+
+
+
+    
+
+
+
+
+        <script type='text/javascript'>
+        var _ues = {
+            host: 'knowledge-base.fl.ru',
+            forum: '3',
+            lang: 'ru',
+            tab_show: false,
+            params:{sso_token:''}
+        };
+        (function () {
+            var _ue = document.createElement('script');
+            _ue.type = 'text/javascript';
+            _ue.async = true;
+            _ue.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.userecho.com/js/widget-1.4.gz.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(_ue, s);
+        })();
+    </script>
+
+
+
+
+<div id="cookie_accept" class="fl-cookie d-flex flex-column flex-column-unset-md align-items-center justify-content-between px-24 px-lg-36 px-xl-48 py-16 shadow d-none">
+    <div class="d-none d-lg-inline-block">
+        <svg class="fl-cookie-icon-size">
+            <use xlink:href="#cookie"></use>
+        </svg>
+    </div>
+    <span class="fl-cookie-terms text-center text-md-left text-9 text-sm-7 text-xl-5">
+            Продолжая пользоваться сайтом, вы соглашаетесь с
+            <span>
+                <a href="https://st.fl.ru/about/documents/cookie_accept.pdf" target="_blank" class="text-decoration-none link-hover-danger text-blue">
+                    условиями использования файлов cookie
+                </a>
+            </span>
+        </span>
+    <div class="mt-16 mt-md-0">
+        <button type="button" onclick="document.cookie = 'cookies_accepted=1;path=/;expires=Fri, 31 Dec 9999 23:59:59 GMT'; document.getElementById('cookie_accept').remove(); return false;" class="btn btn-xs-round btn-primary text-nowrap text-8 fl-cookie-button">Соглашаюсь с условиями</button>
+    </div>
+</div>
+<script>
+    (function() {
+        const el = document.getElementById('cookie_accept');
+        if (!el) {
+            return;
+        }
+        const cookiesMatch = document.cookie.match(/cookies_accepted=(.+?)(;|$)/);
+        if (!cookiesMatch || 1 !== parseInt(cookiesMatch[1])) {
+            el.classList.remove("d-none");
+        }
+    })();
+</script>
+
+<div id="svg-sprite"></div>
+<script>
+    jQuery(function($) {
+        $.ajax({
+            method: 'get',
+            url: 'https://st.fl.ru/assets/icons.95f1647df82ab4c7e4a81d5418bba9ee.svg',
+            dataType: 'html',
+            success: function(content) {
+                document.querySelector('#svg-sprite').innerHTML = content;
+            }
+        });
+    });
+</script>
+</body>
+</html>
+
+2024-04-12 09:41:51,556 - logger - DEBUG - payload/headers.json
+2024-04-12 09:46:26,134 - logger - DEBUG - payload/headers.json
+2024-04-12 09:47:57,942 - logger - DEBUG - payload/headers.json
+2024-04-12 09:48:27,557 - logger - DEBUG - payload/headers.json
+2024-04-12 09:51:12,455 - logger - DEBUG - payload/headers.json
+2024-04-12 09:51:43,020 - logger - DEBUG - payload/headers.json
+2024-04-12 09:52:08,640 - logger - DEBUG - payload/headers.json
+2024-04-12 09:56:38,000 - logger - DEBUG - payload/headers.json
+2024-04-12 09:59:13,076 - logger - DEBUG - payload/headers.json
+2024-04-12 10:00:18,078 - logger - DEBUG - payload/headers.json
+2024-04-12 10:00:22,064 - logger - INFO - Session token updated.
+2024-04-12 10:01:16,778 - logger - DEBUG - payload/headers.json
+2024-04-12 10:01:18,269 - logger - INFO - Session token updated.
+2024-04-12 10:03:26,891 - logger - DEBUG - payload/headers.json
+2024-04-12 10:03:33,825 - logger - INFO - Session token updated.
+2024-04-12 10:06:18,733 - logger - DEBUG - payload/headers.json
+2024-04-12 10:06:18,739 - logger - INFO - Session token updated.
+2024-04-12 10:06:43,221 - logger - DEBUG - payload/headers.json
+2024-04-12 10:08:47,533 - logger - DEBUG - payload/headers.json
+2024-04-12 10:08:47,537 - logger - INFO - Session token updated.
+2024-04-12 10:09:07,355 - logger - DEBUG - {"active":true,"cost_min":{"amount":0,"currency":"RUB"},"cost_max":{"amount":0,"currency":"RUB"},"without_cost":true,"keywords":[],"safe_deal":false,"pro":true,"verified":null,"urgent":false,"without_executor":false,"country_id":0,"city_id":0,"my_specs":false,"less_offers":false,"pro_only":true,"without_pro":false,"konkurs_end_days_from":null,"konkurs_end_days_to":null,"prof_groups":[],"professions":[{"id":37,"name":"\u0412\u0435\u0431-\u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435","name_en":"web-programmist-programmirovanie","prof_group":{"id":5,"name":"\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435","name_en":"programmirovanie","rank":3,"link":"http:\/\/www.fl.ru\/catalog\/programmirovanie\/"}}]}
+2024-04-12 10:09:07,872 - logger - INFO - Оптимизировать скорость вордпресс под Google PageSpeed и в вебмастере https://www.fl.ru/projects/5308408/optimizirovat-skorost-vordpress-pod-google-pagespeed-i-v-vebmastere.html
+
+Zenno скрипт  https://www.fl.ru/projects/5308677/zenno-skript-.html
+
+Фронтенд-программист для работы с онлайн-сервисом на NetCat. https://www.fl.ru/projects/5308650/frontend-programmist-dlya-rabotyi-s-onlayn-servisom-na-netcat.html
+
+Разработчик Nuxt.js + Битрикс. Частичная , постоянная работа.   https://www.fl.ru/projects/5308543/razrabotchik-nuxtjs--bitriks-chastichnaya--postoyannaya-rabota--.html
+
+Прокладывать маршрут внутри офиса/здания https://www.fl.ru/projects/5308645/prokladyivat-marshrut-vnutri-ofisa-zdaniya.html
+
+Нужна копия сайта (форума) https://www.fl.ru/projects/5308639/nujna-kopiya-sayta-foruma.html
+
+Персональный сайт на HostCMS (установка дизайна и доработка функционала) https://www.fl.ru/projects/5308588/personalnyiy-sayt-na-hostcms-ustanovka-dizayna-i-dorabotka-funktsionala.html
+
+разработать веб-приложение в рамках учебной работы https://www.fl.ru/projects/5308558/razrabotat-veb-prilojenie-v-ramkah-uchebnoy-rabotyi.html
+
+Ищем fullstack веб разработчика https://www.fl.ru/projects/5308510/ischem-fullstack-veb-razrabotchika.html
+
+Настройка интеграции c WhatsApp https://www.fl.ru/projects/5308525/nastroyka-integratsii-c-whatsapp.html
+
+Помощь в кастомизации и доработке emulatorjs https://www.fl.ru/projects/5308498/pomosch-v-kastomizatsii-i-dorabotke-emulatorjs.html
+
+Обновить вёрстку сайта под AMP https://www.fl.ru/projects/5308484/obnovit-vrstku-sayta-pod-amp.html
+
+Выполнение задач по сайту на Bitrix (контент-менеджер) https://www.fl.ru/projects/5308475/vyipolnenie-zadach-po-saytu-na-bitrix-kontent-menedjer.html
+
+Нужно переделать сайт на Битрикс по ТЗ https://www.fl.ru/projects/5308470/nujno-peredelat-sayt-na-bitriks-po-tz.html
+
+ Интеграции с платформы вбсист на платформу мой склад https://www.fl.ru/projects/5308452/-integratsii-s-platformyi-vbsist-na-platformu-moy-sklad.html
