@@ -1,9 +1,11 @@
 from parsing import Parser
-import telebot 
-from config import *
+from config import payload_dir, package_size, telegram_token, logger, bot, is_filter_enabled
+import os
+import json
+from monitor import run_monitor
+import threading
 from utils import extract_args
 
-bot = telebot.TeleBot(telegram_token)
 @bot.message_handler(commands=['offers'])
 def get_all_orders(message):
     try:
@@ -27,7 +29,9 @@ def get_all_orders(message):
 
 @bot.message_handler(commands=['token'])
 def set_token(message):
+    global is_filter_enabled
     try:
+        logger.debug(message.chat.id)
         args = extract_args(message.text)
         if len(args) < 1 or args is None:
             raise Exception('The command "token" must contain at least one argument')
@@ -40,11 +44,15 @@ def set_token(message):
             headers_file.truncate()
 
         msg = 'Session token updated.'
-        logger.debug(msg)
+        is_filter_enabled = True
+        logger.info(msg)
         bot.send_message(message.chat.id, msg)
 
     except Exception as err:
         logger.error('An arror occured:', err)
         bot.send_message(message.chat.id, f'An error occured while updating token: {err}')
 
+monitor = threading.Thread(target=run_monitor)
+monitor.start()
 bot.infinity_polling()
+monitor.join()

@@ -2003,3 +2003,577 @@ Zenno скрипт  https://www.fl.ru/projects/5308677/zenno-skript-.html
 Нужно переделать сайт на Битрикс по ТЗ https://www.fl.ru/projects/5308470/nujno-peredelat-sayt-na-bitriks-po-tz.html
 
  Интеграции с платформы вбсист на платформу мой склад https://www.fl.ru/projects/5308452/-integratsii-s-platformyi-vbsist-na-platformu-moy-sklad.html
+2024-04-12 11:19:25,484 - logger - DEBUG - {"active":true,"cost_min":{"amount":0,"currency":"RUB"},"cost_max":{"amount":0,"currency":"RUB"},"without_cost":true,"keywords":[],"safe_deal":false,"pro":true,"verified":null,"urgent":false,"without_executor":false,"country_id":0,"city_id":0,"my_specs":false,"less_offers":false,"pro_only":true,"without_pro":false,"konkurs_end_days_from":null,"konkurs_end_days_to":null,"prof_groups":[],"professions":[{"id":37,"name":"\u0412\u0435\u0431-\u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435","name_en":"web-programmist-programmirovanie","prof_group":{"id":5,"name":"\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435","name_en":"programmirovanie","rank":3,"link":"http:\/\/www.fl.ru\/catalog\/programmirovanie\/"}}]}
+2024-04-12 11:19:25,815 - logger - INFO - Оптимизировать скорость вордпресс под Google PageSpeed и в вебмастере https://www.fl.ru/projects/5308408/optimizirovat-skorost-vordpress-pod-google-pagespeed-i-v-vebmastere.html
+
+Опубликовать текст на сайте https://www.fl.ru/projects/5308694/opublikovat-tekst-na-sayte.html
+
+Zenno скрипт  https://www.fl.ru/projects/5308677/zenno-skript-.html
+
+Фронтенд-программист для работы с онлайн-сервисом на NetCat. https://www.fl.ru/projects/5308650/frontend-programmist-dlya-rabotyi-s-onlayn-servisom-na-netcat.html
+
+Разработчик Nuxt.js + Битрикс. Частичная , постоянная работа.   https://www.fl.ru/projects/5308543/razrabotchik-nuxtjs--bitriks-chastichnaya--postoyannaya-rabota--.html
+
+Прокладывать маршрут внутри офиса/здания https://www.fl.ru/projects/5308645/prokladyivat-marshrut-vnutri-ofisa-zdaniya.html
+
+Нужна копия сайта (форума) https://www.fl.ru/projects/5308639/nujna-kopiya-sayta-foruma.html
+
+Персональный сайт на HostCMS (установка дизайна и доработка функционала) https://www.fl.ru/projects/5308588/personalnyiy-sayt-na-hostcms-ustanovka-dizayna-i-dorabotka-funktsionala.html
+
+разработать веб-приложение в рамках учебной работы https://www.fl.ru/projects/5308558/razrabotat-veb-prilojenie-v-ramkah-uchebnoy-rabotyi.html
+
+Ищем fullstack веб разработчика https://www.fl.ru/projects/5308510/ischem-fullstack-veb-razrabotchika.html
+
+Настройка интеграции c WhatsApp https://www.fl.ru/projects/5308525/nastroyka-integratsii-c-whatsapp.html
+
+Помощь в кастомизации и доработке emulatorjs https://www.fl.ru/projects/5308498/pomosch-v-kastomizatsii-i-dorabotke-emulatorjs.html
+
+Обновить вёрстку сайта под AMP https://www.fl.ru/projects/5308484/obnovit-vrstku-sayta-pod-amp.html
+
+Выполнение задач по сайту на Bitrix (контент-менеджер) https://www.fl.ru/projects/5308475/vyipolnenie-zadach-po-saytu-na-bitrix-kontent-menedjer.html
+
+Нужно переделать сайт на Битрикс по ТЗ https://www.fl.ru/projects/5308470/nujno-peredelat-sayt-na-bitriks-po-tz.html
+2024-04-15 15:55:17,870 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 19:46:52,752 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 19:47:14,007 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 19:56:39,445 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 19:57:40,935 - logger - DEBUG - 1837314931
+2024-05-09 20:18:10,379 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:18:56,923 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:19:44,199 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:20:48,732 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:21:42,617 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:22:05,512 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:22:58,039 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:22:58,249 - logger - DEBUG - 1837314931
+2024-05-09 20:22:58,264 - logger - DEBUG - Session token updated.
+2024-05-09 20:22:58,419 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:23:01,503 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:23:04,749 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:23:08,474 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:23:09,052 - logger - DEBUG - 1837314931
+2024-05-09 20:23:09,055 - logger - DEBUG - Session token updated.
+2024-05-09 20:23:11,742 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:23:15,017 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:23:17,905 - logger - DEBUG - 1837314931
+2024-05-09 20:23:17,909 - logger - DEBUG - Session token updated.
+2024-05-09 20:23:18,682 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:23:22,155 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:23:25,372 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:23:28,567 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:23:39,839 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:26:23,034 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:26:40,593 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:27:02,304 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:27:05,491 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:27:08,690 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:27:15,901 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:27:36,134 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:27:53,455 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:27:56,677 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:27:59,939 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:28:16,034 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:28:36,581 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:28:40,064 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:28:41,256 - logger - DEBUG - 1837314931
+2024-05-09 20:28:43,354 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:28:46,595 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:28:46,929 - logger - DEBUG - 1837314931
+2024-05-09 20:28:46,934 - logger - INFO - Session token updated.
+2024-05-09 20:28:49,812 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:28:53,009 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:28:56,221 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:28:56,714 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:28:59,465 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:29:02,693 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:29:05,922 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:29:08,267 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:29:09,199 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:29:12,162 - logger - DEBUG - 1837314931
+2024-05-09 20:29:12,165 - logger - INFO - Session token updated.
+2024-05-09 20:29:12,440 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:29:15,665 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:29:18,865 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:29:22,097 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:29:23,817 - logger - DEBUG - 1837314931
+2024-05-09 20:29:23,820 - logger - INFO - Session token updated.
+2024-05-09 20:29:25,389 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:29:28,647 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:29:31,033 - logger - DEBUG - 1837314931
+2024-05-09 20:29:31,036 - logger - INFO - Session token updated.
+2024-05-09 20:29:31,893 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:29:35,164 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:29:37,233 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:29:38,401 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:29:41,588 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:29:44,816 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:29:48,019 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:29:51,954 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:29:55,369 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:30:01,457 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:30:05,298 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:30:36,226 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:31:14,010 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2024-05-09 20:31:32,407 - logger - DEBUG - <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
