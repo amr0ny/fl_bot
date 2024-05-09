@@ -16,8 +16,8 @@ def run_monitor():
                 headers = json.load(headers_file)
             parser = Parser(url, filter, headers=headers, package_size=package_size)
             data = parser.parse_project_list()
-            recent_project = state.get_state('recent_project')
-            if recent_project is not None and data[0] != recent_project[0]:
+            recent_project = tuple(state.get_state('recent_project'))
+            if recent_project is not None and data[0] != recent_project:
                 bot.send_message(chat_id, ' '.join([str(v) for v in data[0]]))
                 state.set_state('recent_project', data[0])
             else:
